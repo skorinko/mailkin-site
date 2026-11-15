@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Mailkin</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Sun, 15 Nov 2026 22:08:46 +0100</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://downloads.mailkin.app/Mailkin-1.0.1.dmg" length="8232525" type="application/octet-stream" sparkle:edSignature="H4fWBTqnSy6e8zvxQ7+auAdwEcXmSf6ZfAr28hCxsEAX9VLQbid/2k5/G0IE9iZ60kj0wjGnmiKcNugLTsfkDQ=="/>
+        </item>
+    </channel>
+</rss>

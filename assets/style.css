@@ -66,3 +66,5 @@ footer a { color: var(--muted); }
 .options { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 30px 0; }
 .doc ul.check { padding-left: 1.2em; }
 .small { font-size: 14px; color: var(--muted); }
+.ctas { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.cta.secondary { background: transparent; color: var(--coral-deep); box-shadow: inset 0 0 0 2px var(--coral-deep); }
