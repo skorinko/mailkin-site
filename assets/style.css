@@ -59,3 +59,10 @@ h2.section { text-align: center; color: var(--ink); font-size: clamp(26px, 4vw, 
 footer { border-top: 1px solid var(--line); padding: 26px 0 40px; color: var(--muted); font-size: 14px; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: space-between; }
 footer a { color: var(--muted); }
+.price { text-align: center; padding: 30px 0 10px; }
+.price .amount { font-size: clamp(44px, 7vw, 64px); font-weight: 700; color: var(--ink); letter-spacing: -0.02em; margin: 6px 0 0; }
+.price .per { color: var(--muted); margin: 0 0 22px; }
+.cta.waiting { background: var(--ink-soft); }
+.options { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 30px 0; }
+.doc ul.check { padding-left: 1.2em; }
+.small { font-size: 14px; color: var(--muted); }
