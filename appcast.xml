@@ -8,7 +8,13 @@
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://downloads.mailkin.app/Mailkin-1.0.1.dmg" length="8232525" type="application/octet-stream" sparkle:edSignature="H4fWBTqnSy6e8zvxQ7+auAdwEcXmSf6ZfAr28hCxsEAX9VLQbid/2k5/G0IE9iZ60kj0wjGnmiKcNugLTsfkDQ=="/>
+            <enclosure url="https://downloads.mailkin.app/Mailkin-1.0.1-4.dmg" length="8400405" type="application/octet-stream" sparkle:edSignature="g05Ky+q4Ue00oONwUejBRRzOtUjBVXwfiAYlzEjNxgOI950Bi4V2AJZ4h+aMeOYmVRSmSPvQpLWY85hDvQlEAw=="/>
+            <description><![CDATA[<ul>
+  <li>Mailkin can now be downloaded from mailkin.app.</li>
+  <li>The one-time purchase is now called Mailkin Translator Lifetime. It unlocks unlimited translation.</li>
+  <li>Mailkin checks for new versions and offers to install them, so you stay up to date.</li>
+</ul>
+]]></description>
         </item>
     </channel>
 </rss>
