@@ -4,17 +4,17 @@
         <title>Mailkin</title>
         <item>
             <title>1.0.1</title>
-            <pubDate>Sun, 15 Nov 2026 22:08:46 +0100</pubDate>
-            <sparkle:version>4</sparkle:version>
+            <pubDate>Mon, 16 Nov 2026 07:49:22 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://downloads.mailkin.app/Mailkin-1.0.1-4.dmg" length="8400405" type="application/octet-stream" sparkle:edSignature="g05Ky+q4Ue00oONwUejBRRzOtUjBVXwfiAYlzEjNxgOI950Bi4V2AJZ4h+aMeOYmVRSmSPvQpLWY85hDvQlEAw=="/>
             <description><![CDATA[<ul>
   <li>Mailkin can now be downloaded from mailkin.app.</li>
   <li>The one-time purchase is now called Mailkin Translator Lifetime. It unlocks unlimited translation.</li>
-  <li>Mailkin checks for new versions and offers to install them, so you stay up to date.</li>
+  <li>Mailkin checks for new versions and offers to install them. To do that, it opens at login in the background, without a window; you can turn this off in Settings › Updates.</li>
 </ul>
 ]]></description>
+            <enclosure url="https://downloads.mailkin.app/Mailkin-1.0.1-5.dmg" length="8419847" type="application/octet-stream" sparkle:edSignature="sBk0WqwomTHgXx7xG3jKPinsSVgZiaXBwpPEY+loBELBrUwuAnystDk5KZqjl1xEIReEted67sPix1uDEUf7Bg=="/>
         </item>
     </channel>
 </rss>
