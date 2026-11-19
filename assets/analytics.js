@@ -62,6 +62,7 @@
     person_profiles: "identified_only",
     disable_compression: true, // lets the Worker tag each event with is_bot
     autocapture: false,
+    capture_performance: false, // no $web_vitals: they'd use the event allowance and skip bot tagging
     capture_pageview: "history_change",
     capture_pageleave: true,
     disable_session_recording: true,
