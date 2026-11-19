@@ -27,6 +27,9 @@
     token: config.token,
     checkout: { settings: { displayMode: "overlay", theme: "light", locale: "en", allowLogout: false } },
     eventCallback: function (event) {
+      if (window.posthog && (event.name === "checkout.loaded" || event.name === "checkout.completed")) {
+        posthog.capture(event.name === "checkout.loaded" ? "checkout_opened" : "checkout_completed", { sandbox: sandbox });
+      }
       if (event.name === "checkout.completed") {
         var email = event.data && event.data.customer && event.data.customer.email;
         status.textContent = "Thank you! Your license key is on its way" + (email ? " to " + email : "") +
