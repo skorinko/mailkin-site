@@ -8,6 +8,23 @@
   var KEY = "phc_B4emGAE78ZtKqemBXrME6ECvgtXq8WEoRx8MgbxjHo8Y";
   var APP = "mailkin";
   var host = location.hostname;
+  // Attribution for this visit: utm_* from the URL, else from the previous page on this site
+  // (same-origin referrers include the query), plus the external referrer's host.
+  var UTM = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+  function attribution() {
+    var out = {};
+    var here = new URLSearchParams(location.search);
+    var prev = null;
+    try { prev = document.referrer ? new URL(document.referrer) : null; } catch (e) { }
+    var sameSite = prev && prev.hostname === host;
+    var from = here.get("utm_source") ? here : sameSite ? prev.searchParams : here;
+    UTM.forEach(function (k) { if (from.get(k)) out[k] = from.get(k); });
+    if (prev && !sameSite) out.ref = prev.hostname;
+    return out;
+  }
+
+  window.mailkinAttribution = attribution; // buy.js puts it on the Paddle checkout
+
   var dev = host === "localhost" || host === "127.0.0.1";
   if (dev && location.port !== "8787") return; // the Python dev server has no /_e; `wrangler dev` (8787) does
   if (!dev && KEY.indexOf("REPLACE") !== -1) return; // project key not filled in yet
@@ -30,21 +47,6 @@
     advanced_disable_feature_flags: true,
   });
   posthog.register({ app: APP });
-
-  // Attribution for this visit: utm_* from the URL, else from the previous page on this site
-  // (same-origin referrers include the query), plus the external referrer's host.
-  var UTM = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
-  function attribution() {
-    var out = {};
-    var here = new URLSearchParams(location.search);
-    var prev = null;
-    try { prev = document.referrer ? new URL(document.referrer) : null; } catch (e) { }
-    var sameSite = prev && prev.hostname === host;
-    var from = here.get("utm_source") ? here : sameSite ? prev.searchParams : here;
-    UTM.forEach(function (k) { if (from.get(k)) out[k] = from.get(k); });
-    if (prev && !sameSite) out.ref = prev.hostname;
-    return out;
-  }
 
   document.addEventListener("click", function (e) {
     var el = e.target.closest && e.target.closest("[data-track]");

@@ -48,7 +48,9 @@
     if (button.getAttribute("aria-disabled") === "true") return;
     Paddle.Checkout.open({
       items: [{ priceId: config.priceId, quantity: 1 }],
-      customData: { source: "mailkin.app/buy" }
+      // utm_* / ref: where this buyer came from (the app adds utm_source=<download source>&utm_medium=app).
+      // The license Worker copies them onto the `purchase` analytics event.
+      customData: Object.assign({ source: "mailkin.app/buy" }, window.mailkinAttribution ? window.mailkinAttribution() : {})
     });
   });
 })();
