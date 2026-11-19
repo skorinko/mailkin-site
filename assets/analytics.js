@@ -4,6 +4,7 @@
 // Tracked clicks: any element with data-track="<name>" sends "<name>_clicked" with
 // placement = data-placement (or the page path). Download links also carry the visit's
 // utm_* / referrer to /download so the download (and the app's first launch) is credited to it.
+// App Store badges (data-track="appstore") get ct=<source> for App Store Connect's campaign report.
 (function () {
   var KEY = "phc_B4emGAE78ZtKqemBXrME6ECvgtXq8WEoRx8MgbxjHo8Y";
   var APP = "mailkin";
@@ -24,6 +25,27 @@
   }
 
   window.mailkinAttribution = attribution; // buy.js puts it on the Paddle checkout
+
+  // App Store badges: <a href="https://apps.apple.com/app/id6835083704?pt=<provider ID>&mt=12" data-track="appstore">.
+  // ct= (Apple's campaign token) becomes this visit's source, the same label the dashboard uses
+  // (utm_source, else the referring site, else "direct"), so App Store Connect's per-campaign
+  // downloads and sales line up with PostHog's sources. Set on load, so every way of opening the
+  // link (click, middle-click, copy) carries it. Runs even where analytics is off. Without pt=
+  // Apple ignores ct=, so a badge missing it is reported in the console.
+  function source(attr) { return attr.utm_source || attr.ref || "direct"; }
+  function tagAppStoreLinks() {
+    var ct = source(attribution()).replace(/[^\w.-]+/g, "-").slice(0, 40); // Apple allows 40 characters
+    document.querySelectorAll('a[data-track="appstore"]').forEach(function (a) {
+      try {
+        var url = new URL(a.href);
+        if (!url.searchParams.get("pt")) console.warn("App Store link without pt= (provider ID): campaign won't be counted", a.href);
+        url.searchParams.set("ct", ct);
+        a.href = url.toString();
+      } catch (e) { }
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tagAppStoreLinks);
+  else tagAppStoreLinks();
 
   var dev = host === "localhost" || host === "127.0.0.1";
   if (dev && location.port !== "8787") return; // the Python dev server has no /_e; `wrangler dev` (8787) does
