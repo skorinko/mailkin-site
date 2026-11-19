@@ -3,6 +3,25 @@
     <channel>
         <title>Mailkin</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Thu, 19 Nov 2026 16:28:35 +0100</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+  <li>Choose per language whether Mailkin translates automatically, only when you ask, or never.</li>
+  <li>The Options popup now fits on one page and saves as soon as you click.</li>
+  <li>Settings has a Feedback section, with a quick way to send us a note.</li>
+  <li>Signed emails are left untouched, and quoted replies are detected more precisely.</li>
+  <li>New in Settings › Privacy: share anonymous usage statistics (the app version and a random ID, at most once a day). You can turn it off there.</li>
+</ul>
+]]></description>
+            <enclosure url="https://downloads.mailkin.app/Mailkin-1.0.8-12.dmg" length="8531145" type="application/octet-stream" sparkle:edSignature="xqkQZIfvyHa1F+OA5lADv1GcaKuV0WUjUpO+57I+NUCVrkB+BJdEO6eURF6w+bpDtDUrSCCpNR958qYrPZoeBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://downloads.mailkin.app/Mailkin12-5.delta" sparkle:deltaFrom="5" length="555498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fh7gvaNpKRCGH9Qw7mzMKhx/fLz+fh/KTdhMZ+xm60FsC5bFeR7Gai+Lxqa93IAUR49T2WFCUFDhKd615m2NAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Mon, 16 Nov 2026 07:49:22 +0100</pubDate>
             <sparkle:version>5</sparkle:version>

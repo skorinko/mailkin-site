@@ -31,14 +31,14 @@
   // (utm_source, else the referring site, else "direct"), so App Store Connect's per-campaign
   // downloads and sales line up with PostHog's sources. Set on load, so every way of opening the
   // link (click, middle-click, copy) carries it. Runs even where analytics is off. Without pt=
-  // Apple ignores ct=, so a badge missing it is reported in the console.
+  // Apple ignores ct=, so links without it are left as they are.
   function source(attr) { return attr.utm_source || attr.ref || "direct"; }
   function tagAppStoreLinks() {
     var ct = source(attribution()).replace(/[^\w.-]+/g, "-").slice(0, 40); // Apple allows 40 characters
     document.querySelectorAll('a[data-track="appstore"]').forEach(function (a) {
       try {
         var url = new URL(a.href);
-        if (!url.searchParams.get("pt")) console.warn("App Store link without pt= (provider ID): campaign won't be counted", a.href);
+        if (!url.searchParams.get("pt")) return; // Apple ignores ct= without the provider ID
         url.searchParams.set("ct", ct);
         a.href = url.toString();
       } catch (e) { }
