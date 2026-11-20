@@ -1,0 +1,49 @@
+---
+permalink: /llms.txt
+layout: false
+eleventyExcludeFromCollections: true
+---
+{%- set t = i18n.en -%}
+# Mailkin
+
+> {{ t.oneLiner }} It is a Mail extension (MailKit) that uses Apple's on-device Translation framework: email content never leaves the Mac, and there is no account. The first {{ site.freeEmails }} translated emails are free; then a one-time purchase of €{{ site.price.eur }} / US${{ site.price.usd }} (no subscription). Requires macOS {{ site.minMacOS }} or later. Current version: {{ site.version }}.
+
+Key facts:
+- Translates incoming emails automatically when they are opened in Apple Mail, in place, keeping layout, links and images. A banner shows the source language; "Show Original" restores the original.
+- Apple Mail itself has no automatic translation; macOS only offers the Translate command on selected text.
+- {{ site.languageCount }} languages: {% for c in site.languages %}{{ c | langName("en") }}{% if not loop.last %}, {% endif %}{% endfor %}.
+- Works with every account added to Apple Mail (iCloud, Gmail, Outlook/Exchange, Yahoo, IMAP). Mac only; not on iPhone or iPad.
+- Per-sender and per-email rules (always / never translate); per-language choice: automatic, only on request, or never.
+- Does not yet translate emails you write or reply to.
+- Available as a direct download from mailkin.app (license key, sold via Paddle); Mac App Store version coming soon.
+- Website and app available in: {% for l in site.locales %}{{ l.name }}{% if not loop.last %}, {% endif %}{% endfor %}.
+
+## Product
+- [Translate emails in Apple Mail]({{ site.url }}/translate-email-apple-mail/): how Mailkin works, setup, privacy
+- [Languages]({{ site.url }}/languages/): all {{ site.languageCount }} supported languages
+- [Pricing]({{ site.url }}/buy/): 30 free emails, then one-time purchase
+- [FAQ]({{ site.url }}/faq/): privacy, offline use, accounts, requirements
+- [Support]({{ site.url }}/support/): setup and troubleshooting
+- [Release notes]({{ site.url }}/changelog/)
+- [Press kit]({{ site.url }}/press/): fact sheet, descriptions, screenshots
+
+## Guides
+{%- for g in collections.guide %}{% if g.data.short %}
+- [{{ g.data.h1 or g.data.title }}]({{ g.url | absolute }}): {{ g.data.description }}
+{%- endif %}{% endfor %}
+
+## Comparisons
+{%- for g in collections.compare %}{% if g.data.short %}
+- [{{ g.data.h1 or g.data.title }}]({{ g.url | absolute }}): {{ g.data.description }}
+{%- endif %}{% endfor %}
+
+## Translating email by language
+{%- for f in site.featured %}{% if f.code != "en" %}
+- [Translate {{ f.code | langName("en") }} emails in Apple Mail]({{ site.url }}/translate/{{ f.slug }}-email/)
+{%- endif %}{% endfor %}
+
+## Optional
+- [Full text of the main pages]({{ site.url }}/llms-full.txt)
+- [Privacy policy]({{ site.url }}/privacy/)
+- [Terms]({{ site.url }}/terms/)
+- [Refund policy]({{ site.url }}/refunds/)

@@ -1,0 +1,71 @@
+---js
+{
+  pagination: { data: "site.locales", size: 1, alias: "locale", addAllPagesToCollections: true },
+  pageKey: "hub-translate",
+  schema: ["app", "faq"],
+  placement: "hub",
+  updated: "2026-11-20",
+  eleventyComputed: {
+    permalink: (d) => `${d.locale.prefix}/translate-email-apple-mail/`,
+    title: (d) => (d.i18n[d.locale.code] || d.i18n.en).hub.title,
+    description: (d) => (d.i18n[d.locale.code] || d.i18n.en).hub.description,
+    faqItems: (d) => (d.i18n[d.locale.code] || d.i18n.en).hub.faq,
+    crumbs: (d) => [{ name: (d.i18n[d.locale.code] || d.i18n.en).nav.translate }],
+    featuredHere: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang),
+  },
+}
+---
+<article class="doc">
+  <h1>{{ t.hub.h1 }}</h1>
+  <p class="answer">{{ t.hub.answer }}</p>
+  <div class="ctas left">
+    <a class="cta" href="/download" data-track="download" data-placement="hub_top">{{ t.cta.download }}</a>
+    <a class="cta secondary" href="{{ locale.prefix }}/buy/" data-track="pricing" data-placement="hub_top">{{ t.cta.pricing }}</a>
+  </div>
+
+  <h2>{{ t.hub.builtinTitle }}</h2>
+  <p>{{ t.hub.builtinText }}</p>
+
+  <h2>{{ t.hub.stepsTitle }}</h2>
+  <ol>
+    {%- for s in t.hub.steps %}
+    <li>{{ s | safe }}</li>
+    {%- endfor %}
+  </ol>
+  <p class="small">{{ t.hub.stepsNote }}</p>
+
+  <h2>{{ t.hub.lookTitle }}</h2>
+  <p>{{ t.hub.lookText | safe }}</p>
+  <figure><img src="/assets/translated.png" alt="{{ t.home.shotTranslatedAlt }}" width="1400" height="914" loading="lazy"></figure>
+
+  <h2>{{ t.hub.privateTitle }}</h2>
+  <p>{{ t.hub.privateText }}</p>
+
+  <h2>{{ t.hub.accountsTitle }}</h2>
+  <p>{{ t.hub.accountsText }}</p>
+
+  <h2>{{ t.hub.compareTitle }}</h2>
+  <div class="table"><table>
+    <thead><tr>{% for h in t.hub.compareHead %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+    <tbody>
+      {%- for r in t.hub.compareRows %}
+      <tr><th scope="row">{{ r[0] }}</th><td>{{ r[1] }}</td><td>{{ r[2] }}</td></tr>
+      {%- endfor %}
+    </tbody>
+  </table></div>
+
+  <h2>{{ t.home.languagesTitle }}</h2>
+  <ul class="lang-grid left">
+    {%- for f in featuredHere %}
+    <li><a href="{{ locale.prefix }}/translate/{{ f.slug }}-email/">{{ f.code | langName(locale.code) | cap(locale.intl) }}</a></li>
+    {%- endfor %}
+    <li><a href="{{ locale.prefix }}/languages/"><strong>{{ t.home.languagesAll }}</strong></a></li>
+  </ul>
+
+  <h2>{{ t.home.faqTitle }}</h2>
+  {% include "faq.njk" %}
+  <p class="updated">{{ t.lastUpdated }}: {{ updated | localDate(locale.code) }}</p>
+</article>
+
+{% include "facts.njk" %}
+{% include "band.njk" %}

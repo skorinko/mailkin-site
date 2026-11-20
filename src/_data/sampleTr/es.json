@@ -1,0 +1,82 @@
+{
+  "de": {
+    "subject": "Mantenimiento de la calefacción el 3 de diciembre",
+    "body": [
+      "Estimados inquilinos:",
+      "El miércoles 3 de diciembre, entre las 8:00 y las 12:00, se realizará el mantenimiento de la instalación de calefacción. Durante ese tiempo no habrá agua caliente.",
+      "Les rogamos que se aseguren de que la sala de calderas esté accesible. Muchas gracias por su comprensión.",
+      "Atentamente,\nSu administración de fincas"
+    ],
+    "note": "Los correos en alemán suelen ser formales, con el tratamiento de Sie y fórmulas fijas como «Mit freundlichen Grüßen» (atentamente). Las cartas de caseros, administraciones y aseguradoras suelen usar palabras compuestas muy largas, que la traducción de Apple convierte en un español fácil de leer."
+  },
+  "fr": {
+    "subject": "Retraso en la entrega de su pedido n.º 4812",
+    "body": [
+      "Hola:",
+      "Le informamos de que su pedido n.º 4812 se enviará con una semana de retraso debido a una falta de existencias en nuestro proveedor.",
+      "Le pedimos disculpas por este contratiempo. No dude en ponerse en contacto con nosotros si desea modificar o cancelar su pedido.",
+      "Un saludo,\nEl equipo de Atelier Lumière"
+    ],
+    "note": "Los correos comerciales en francés prefieren fórmulas de cortesía como «Nous vous prions de» y «Cordialement». Mailkin conserva el sentido y las convierte en las expresiones sencillas que esperarías en tu idioma."
+  },
+  "it": {
+    "subject": "Documentos para la declaración de la renta",
+    "body": [
+      "Estimado cliente:",
+      "Para preparar la declaración de la renta necesitamos los recibos de los gastos médicos y el contrato de alquiler antes del 30 de abril.",
+      "Puede enviarnos los documentos respondiendo a este correo o subirlos a su área privada.",
+      "Un cordial saludo,\nStudio Rinaldi"
+    ],
+    "note": "Los correos en italiano de despachos, colegios y organismos públicos usan el tratamiento formal de Lei y fórmulas como «Gentile cliente» y «Cordiali saluti». Mailkin traduce el mensaje completo, incluidos el asunto y las fechas."
+  },
+  "ja": {
+    "subject": "Propuesta de fecha para una reunión",
+    "body": [
+      "Gracias, como siempre, por su colaboración.",
+      "¿Podría dedicarnos un momento la próxima semana para una reunión sobre el nuevo producto? Le rogamos que nos indique la hora que mejor le venga el martes o el jueves por la tarde.",
+      "Sé que está muy ocupado y le agradezco de antemano su atención.",
+      "Tanaka"
+    ],
+    "note": "Los correos de empresa en japonés empiezan y terminan con fórmulas de cortesía fijas como お世話になっております y よろしくお願いいたします. La traducción de Apple las convierte en saludos naturales en lugar de un texto palabra por palabra, para que lo que realmente se pide quede claro."
+  },
+  "zh": {
+    "subject": "Respuesta a su solicitud de presupuesto",
+    "body": [
+      "Hola:",
+      "Gracias por su consulta. El precio unitario para 5000 unidades es de 2,35 US$ por unidad, embalaje incluido, con un plazo de entrega de 25 días desde la confirmación del pedido.",
+      "Si necesita muestras, podemos enviarlas en un plazo de tres días laborables. Esperamos poder colaborar con usted.",
+      "Atentamente,\nSr. Li, director comercial"
+    ],
+    "note": "Mailkin traduce correos en chino escritos con caracteres simplificados o tradicionales, habituales con proveedores, fábricas y socios de China continental, Taiwán y Hong Kong. Los precios, las cantidades y las fechas se mantienen sin cambios."
+  },
+  "pt": {
+    "subject": "Comentarios sobre la primera versión de la web",
+    "body": [
+      "Hola, ¿qué tal?",
+      "Hemos revisado la primera versión de la web y nos ha gustado mucho el diseño. Solo te pedimos que cambies las fotos de la página de inicio y que acortes el formulario de contacto.",
+      "¿Podríamos tener la nueva versión el viernes?",
+      "Un abrazo,\nMariana"
+    ],
+    "note": "Los correos en portugués de Brasil y de Portugal se diferencian en el tono y el vocabulario. Los brasileños suelen ser informales y empiezan con «Olá, tudo bem?», mientras que los de Portugal tienden a ser más formales. Mailkin traduce ambos."
+  },
+  "ru": {
+    "subject": "Confirmación de su participación en el congreso",
+    "body": [
+      "Hola:",
+      "Gracias por inscribirse en el congreso TechnoForum, que se celebrará los días 22 y 23 de abril. Su ponencia se ha incluido en el programa de la segunda jornada.",
+      "Le rogamos que confirme su participación antes del 1 de abril respondiendo a este correo.",
+      "Atentamente,\nEl comité organizador"
+    ],
+    "note": "Mailkin lee los correos en ruso escritos en alfabeto cirílico y los detecta automáticamente, aunque el asunto esté en inglés. Las despedidas formales como «С уважением» (respetuosamente) se convierten en la despedida habitual en tu idioma."
+  },
+  "en": {
+    "subject": "Reuniones de padres y profesores la próxima semana",
+    "body": [
+      "Estimadas familias:",
+      "Las reuniones de padres y profesores se celebrarán el próximo martes y miércoles de 16:00 a 19:00. Reserven antes del viernes una cita de 15 minutos con el tutor de su hijo mediante el enlace que aparece a continuación.",
+      "Si ninguno de los horarios les viene bien, avísennos y organizaremos una videollamada.",
+      "Un cordial saludo,\nLa secretaría del colegio"
+    ],
+    "note": "El inglés es el idioma de muchos correos que llegan de empresas internacionales, colegios internacionales y servicios de software. Mailkin los traduce al español en cuanto los abres, y Mostrar original recupera el texto en inglés cuando lo necesites."
+  }
+}

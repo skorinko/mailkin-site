@@ -1,0 +1,44 @@
+---
+permalink: /press/
+pageKey: press
+title: "Mailkin Press Kit: Facts, Screenshots and Icon"
+description: "Press kit for Mailkin, the Mac app that translates emails in Apple Mail on-device: fact sheet, descriptions, screenshots, app icon and contact."
+schema: ["home"]
+crumbs: [{ name: "Press kit" }]
+---
+<article class="doc">
+  <h1>Press kit</h1>
+  <p class="answer">{{ t.oneLiner }}</p>
+
+  <h2>Fact sheet</h2>
+  <div class="table"><table>
+    <tbody>
+      <tr><th scope="row">Name</th><td>Mailkin (App Store: “{{ site.appStoreName }}”)</td></tr>
+      <tr><th scope="row">Developer</th><td>{{ site.author }}, independent developer</td></tr>
+      <tr><th scope="row">Platform</th><td>Mac, macOS {{ site.minMacOS }} or later; works in Apple Mail</td></tr>
+      <tr><th scope="row">Current version</th><td>{{ site.version }} (<a href="/changelog/">release notes</a>)</td></tr>
+      <tr><th scope="row">What it does</th><td>Translates incoming emails in other languages automatically, inside Mail, keeping their layout. A banner shows the original language; Show Original brings the original back.</td></tr>
+      <tr><th scope="row">How</th><td>A MailKit extension using Apple's on-device Translation framework. No email content leaves the Mac; no account.</td></tr>
+      <tr><th scope="row">Languages</th><td>{{ site.languageCount }}: {% for c in site.languages %}{{ c | langName("en") }}{% if not loop.last %}, {% endif %}{% endfor %}</td></tr>
+      <tr><th scope="row">App languages</th><td>{% for l in site.locales %}{{ l.name }}{% if not loop.last %}, {% endif %}{% endfor %}</td></tr>
+      <tr><th scope="row">Price</th><td>Free download with {{ site.freeEmails }} translated emails; then Mailkin Translator Lifetime, €{{ site.price.eur }} / US${{ site.price.usd }} one-time. No subscription.</td></tr>
+      <tr><th scope="row">Availability</th><td>Direct download from mailkin.app; Mac App Store coming soon</td></tr>
+      <tr><th scope="row">Contact</th><td><a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a></td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Short description (25 words)</h2>
+  <p>Mailkin translates emails in other languages right inside Apple Mail on the Mac. Translation runs on-device with Apple's built-in engine, so emails never leave the Mac.</p>
+
+  <h2>Long description</h2>
+  <p>Apple Mail on the Mac can translate selected text, but not whole emails. Mailkin fills that gap. Once it's turned on in Mail › Settings › Extensions, every email in a language you've chosen opens already translated into your own language, with its layout, links and images intact. A banner says which language the email was in, and Show Original restores the original with one click. You can always or never translate specific senders, and choose per language whether to translate automatically, only on request, or never.</p>
+  <p>Mailkin uses Apple's Translation framework, which runs on the Mac. Email content is never sent to a server, there's no account, and Mailkin never modifies the messages stored in the mailbox. It supports {{ site.languageCount }} languages, and the first {{ site.freeEmails }} translated emails are free before a one-time purchase.</p>
+
+  <h2>Screenshots and icon</h2>
+  <ul>
+    <li><a href="/assets/translated.png">A German email translated into English in Mail</a> (PNG, 1400×914)</li>
+    <li><a href="/assets/options.png">Mailkin's options in Mail</a> (PNG, 1400×914)</li>
+    <li><a href="/assets/icon.png">App icon</a> (PNG, 512×512)</li>
+  </ul>
+  <p class="small">You may use these images to write about Mailkin. Please don't alter the icon.</p>
+</article>

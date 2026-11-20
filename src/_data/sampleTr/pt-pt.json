@@ -1,0 +1,82 @@
+{
+  "de": {
+    "subject": "Manutenção do aquecimento a 3 de dezembro",
+    "body": [
+      "Caros inquilinos,",
+      "Na quarta-feira, 3 de dezembro, será feita a manutenção do sistema de aquecimento entre as 8h00 e as 12h00. Durante esse período não haverá água quente.",
+      "Pedimos que garantam o acesso à sala da caldeira. Obrigado pela compreensão.",
+      "Com os melhores cumprimentos,\nA administração do condomínio"
+    ],
+    "note": "Os e-mails em alemão são muitas vezes formais, com o tratamento Sie e fórmulas fixas como «Mit freundlichen Grüßen» (com os melhores cumprimentos). As cartas de senhorios, autoridades e seguradoras tendem a usar palavras compostas longas, que a tradução da Apple transforma num português fácil de ler."
+  },
+  "fr": {
+    "subject": "Atraso na entrega da sua encomenda n.º 4812",
+    "body": [
+      "Bom dia,",
+      "Informamos que a sua encomenda n.º 4812 será expedida com uma semana de atraso, devido a uma rutura de stock no nosso fornecedor.",
+      "Pedimos desculpa por este contratempo. Não hesite em contactar-nos se pretender alterar ou cancelar a sua encomenda.",
+      "Com os melhores cumprimentos,\nA equipa Atelier Lumière"
+    ],
+    "note": "Os e-mails comerciais em francês preferem fórmulas de cortesia como «Nous vous prions de» e «Cordialement». O Mailkin mantém o sentido e transforma-as no português simples que esperaria ler."
+  },
+  "es": {
+    "subject": "Confirmação da sua reserva",
+    "body": [
+      "Caro cliente,",
+      "Confirmamos a sua reserva de um quarto duplo de 14 a 17 de março. O check-in é a partir das 15h00 e o check-out até às 11h00.",
+      "Se precisar de transfer a partir do aeroporto, responda a este e-mail e nós tratamos de tudo.",
+      "Com os melhores cumprimentos,\nReceção"
+    ],
+    "note": "Os e-mails em espanhol chegam de Espanha e de grande parte da América Latina, com pequenas diferenças de vocabulário. A tradução da Apple lida com ambos, por isso uma reserva de Madrid e uma fatura da Cidade do México leem-se igualmente bem."
+  },
+  "it": {
+    "subject": "Documentos para a declaração de IRS",
+    "body": [
+      "Caro cliente,",
+      "Para prepararmos a sua declaração de rendimentos, precisamos dos recibos das despesas médicas e do contrato de arrendamento até 30 de abril.",
+      "Pode enviar-nos os documentos respondendo a este e-mail ou carregá-los na sua área reservada.",
+      "Com os melhores cumprimentos,\nStudio Rinaldi"
+    ],
+    "note": "Os e-mails em italiano de escritórios, escolas e serviços públicos usam o tratamento formal Lei e expressões como «Gentile cliente» e «Cordiali saluti». O Mailkin traduz a mensagem completa, incluindo o assunto e as datas."
+  },
+  "ja": {
+    "subject": "Marcação de uma reunião",
+    "body": [
+      "Agradecemos, como sempre, a sua colaboração.",
+      "Poderia disponibilizar algum tempo na próxima semana para uma reunião sobre o novo produto? Indique-nos, por favor, uma hora que lhe seja conveniente na terça ou na quinta-feira à tarde.",
+      "Sei que está muito ocupado e agradeço desde já a sua ajuda.",
+      "Tanaka"
+    ],
+    "note": "Os e-mails comerciais em japonês abrem e fecham com fórmulas de cortesia fixas como お世話になっております e よろしくお願いいたします. A tradução da Apple transforma-as em saudações naturais em vez de texto palavra a palavra, para que o pedido em si se destaque."
+  },
+  "zh": {
+    "subject": "Resposta ao seu pedido de orçamento",
+    "body": [
+      "Olá,",
+      "Obrigado pelo seu pedido de orçamento. O preço unitário para 5000 peças é de 2,35 USD cada, com embalagem incluída, e o prazo de entrega é de 25 dias após a confirmação da encomenda.",
+      "Se precisar de amostras, podemos enviá-las no prazo de três dias úteis. Esperamos poder trabalhar consigo.",
+      "Com os melhores cumprimentos,\nGestor Li"
+    ],
+    "note": "O Mailkin traduz e-mails em chinês escritos em caracteres simplificados ou tradicionais, habituais com fornecedores, fábricas e parceiros da China continental, de Taiwan e de Hong Kong. Os preços, as quantidades e as datas chegam inalterados."
+  },
+  "ru": {
+    "subject": "Confirmação da participação na conferência",
+    "body": [
+      "Olá,",
+      "Agradecemos a sua inscrição na conferência TechnoForum, que se realiza a 22 e 23 de abril. A sua comunicação foi incluída no programa do segundo dia.",
+      "Pedimos que confirme a sua participação até 1 de abril, respondendo a este e-mail.",
+      "Com os melhores cumprimentos,\nA comissão organizadora"
+    ],
+    "note": "O Mailkin lê e-mails em russo escritos em alfabeto cirílico e deteta-os automaticamente, mesmo quando o assunto está em inglês. Despedidas formais como «С уважением» (respeitosamente) passam a ser a despedida habitual em português."
+  },
+  "en": {
+    "subject": "Reuniões de pais e professores na próxima semana",
+    "body": [
+      "Caros pais e encarregados de educação,",
+      "As reuniões de pais e professores realizam-se na próxima terça e quarta-feira, das 16h00 às 19h00. Por favor, marquem até sexta-feira um horário de 15 minutos com o diretor de turma do vosso educando através da ligação abaixo.",
+      "Se nenhum dos horários vos for conveniente, avisem-nos e combinaremos uma videochamada.",
+      "Com os melhores cumprimentos,\nA secretaria da escola"
+    ],
+    "note": "Em Portugal, muitos recebem e-mails em inglês de empresas internacionais, escolas, serviços online e software. O Mailkin mostra-os em português quando os abre, e Mostrar original repõe o texto em inglês sempre que precisar dele."
+  }
+}
