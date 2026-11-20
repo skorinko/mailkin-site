@@ -37,6 +37,22 @@ const featured = [
   { code: "pt", slug: "portuguese" },
   { code: "ru", slug: "russian" },
   { code: "en", slug: "english" },
+  { code: "ko", slug: "korean" },
+  { code: "ar", slug: "arabic" },
+  { code: "nl", slug: "dutch" },
+  { code: "pl", slug: "polish" },
+  { code: "tr", slug: "turkish" },
+  { code: "uk", slug: "ukrainian" },
+  { code: "sv", slug: "swedish" },
+  { code: "da", slug: "danish" },
+  { code: "no", slug: "norwegian" },
+  { code: "fi", slug: "finnish" },
+  { code: "he", slug: "hebrew" },
+  { code: "hi", slug: "hindi" },
+  { code: "id", slug: "indonesian" },
+  { code: "ms", slug: "malay" },
+  { code: "th", slug: "thai" },
+  { code: "vi", slug: "vietnamese" },
 ];
 
 function intlLocale(code) {

@@ -54,7 +54,12 @@ Eleventy site in `src/`, built to `_site/` and deployed by `.github/workflows/pa
 
 Priority: P1 = next month, P2 = months 2–3, P3 = later or when a feature ships. Pick the next pages from Search Console queries once data exists.
 
-### Language pages (P1)
+### Month 1 status (2026-11-20)
+- Done: all 25 languages have landing pages in every locale (16 added); use-case pages for expats, import/export, freelancers, customer support and families (`/for/`); new guides and comparisons in `src/guides/` and `src/compare/`; [launch-kit.md](launch-kit.md) with listing, post, pitch and video copy.
+- Skipped: Mailkin vs Lazie. Lazie's own site describes a selected-text translator, with nothing on translating incoming email and no clear pricing, so there's nothing reliable to compare. Revisit if that changes.
+- Open: the off-site actions in the launch kit (yours), and native review of the new sample emails (written by AI, like the rest of the translations).
+
+### Language pages (P1, done)
 Add the rest of Apple's on-device languages: Korean, Arabic, Dutch, Polish, Turkish, Ukrainian, Swedish, Danish, Norwegian, Finnish, Hebrew, Hindi, Indonesian, Malay, Thai and Vietnamese. For each one:
 - Add it to `site.featured`.
 - Write a sample email in `samples.json`.

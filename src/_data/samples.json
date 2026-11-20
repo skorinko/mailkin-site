@@ -106,5 +106,197 @@
         "Best wishes,\nThe school office"
       ]
     }
+  },
+  "ko": {
+    "from": "하늘상회 고객센터",
+    "original": {
+      "subject": "주문하신 상품이 발송되었습니다",
+      "body": [
+        "안녕하세요, 고객님.",
+        "주문하신 상품(주문번호 20481)이 오늘 발송되었습니다. 해외 배송은 보통 7~10일 정도 소요되며, 통관 과정에서 지연될 수 있습니다.",
+        "배송 조회는 아래 운송장 번호로 가능합니다. 궁금하신 점이 있으면 언제든지 이 메일로 회신해 주세요.",
+        "감사합니다.\n하늘상회 드림"
+      ]
+    }
+  },
+  "ar": {
+    "from": "شركة الواحة للتطوير العقاري",
+    "original": {
+      "subject": "موعد معاينة الشقة",
+      "body": [
+        "السلام عليكم،",
+        "نود تأكيد موعد معاينة الشقة يوم الأحد القادم الساعة الرابعة عصراً. سيكون مندوبنا في انتظاركم عند مدخل المبنى.",
+        "يرجى إحضار نسخة من الهوية في حال رغبتم في توقيع عقد الحجز في نفس اليوم.",
+        "مع أطيب التحيات،\nقسم المبيعات"
+      ]
+    }
+  },
+  "nl": {
+    "from": "Gemeente Waterveld, afdeling Burgerzaken",
+    "original": {
+      "subject": "Bevestiging van uw afspraak",
+      "body": [
+        "Geachte heer/mevrouw,",
+        "Hierbij bevestigen wij uw afspraak voor het aanvragen van een paspoort op dinsdag 9 december om 10.30 uur in het stadskantoor.",
+        "Neem uw huidige paspoort en een recente pasfoto mee. Kunt u niet komen? Wijzig of annuleer uw afspraak dan via de link in deze e-mail.",
+        "Met vriendelijke groet,\nTeam Burgerzaken"
+      ]
+    }
+  },
+  "pl": {
+    "from": "Remonty Nowak",
+    "original": {
+      "subject": "Wycena remontu łazienki",
+      "body": [
+        "Dzień dobry,",
+        "w załączniku przesyłam wycenę remontu łazienki. Koszt robocizny wynosi 9 800 zł, a materiały zostaną rozliczone osobno według faktur.",
+        "Możemy rozpocząć prace od 12 stycznia. Proszę o potwierdzenie terminu do końca tygodnia.",
+        "Pozdrawiam serdecznie,\nTomasz Nowak"
+      ]
+    }
+  },
+  "tr": {
+    "from": "Ege Tekstil Dış Ticaret",
+    "original": {
+      "subject": "Siparişinizin sevkiyatı hakkında",
+      "body": [
+        "Merhaba,",
+        "1.200 adet pamuklu tişört siparişiniz hazırlanmıştır ve bu cuma günü İzmir limanından yola çıkacaktır.",
+        "Konşimento ve fatura bilgilerini sevkiyattan sonra ayrıca göndereceğiz. Herhangi bir değişiklik olursa lütfen bize bildirin.",
+        "Saygılarımızla,\nDış Ticaret Departmanı"
+      ]
+    }
+  },
+  "uk": {
+    "from": "Батьківський комітет 5-Б класу",
+    "original": {
+      "subject": "Збори батьків у четвер",
+      "body": [
+        "Доброго дня, шановні батьки!",
+        "Запрошуємо вас на батьківські збори в четвер о 18:00 у кабінеті 214. Обговоримо шкільну екскурсію та графік канікул.",
+        "Якщо ви не зможете прийти, будь ласка, повідомте класного керівника заздалегідь.",
+        "З повагою,\nБатьківський комітет"
+      ]
+    }
+  },
+  "sv": {
+    "from": "Förskolan Solrosen",
+    "original": {
+      "subject": "Information inför planeringsdagen",
+      "body": [
+        "Hej alla vårdnadshavare!",
+        "Fredagen den 16 januari har förskolan stängt på grund av planeringsdag. Behöver ni omsorg den dagen, meddela oss senast den 9 januari.",
+        "Kom också ihåg att märka barnens vinterkläder med namn.",
+        "Vänliga hälsningar\nPersonalen på Solrosen"
+      ]
+    }
+  },
+  "da": {
+    "from": "Boligforeningen Engparken",
+    "original": {
+      "subject": "Indkaldelse til afdelingsmøde",
+      "body": [
+        "Kære beboere,",
+        "Der indkaldes hermed til ordinært afdelingsmøde onsdag den 21. januar kl. 19.00 i fælleshuset.",
+        "På dagsordenen er blandt andet budgettet for næste år og renovering af legepladsen. Forslag skal være bestyrelsen i hænde senest en uge før mødet.",
+        "Med venlig hilsen\nAfdelingsbestyrelsen"
+      ]
+    }
+  },
+  "no": {
+    "from": "Tannlegesenteret Sentrum",
+    "original": {
+      "subject": "Påminnelse om time",
+      "body": [
+        "Hei!",
+        "Dette er en påminnelse om at du har time hos tannlegen tirsdag 13. januar kl. 08.15.",
+        "Dersom du ikke kan møte, må timen avbestilles senest 24 timer i forveien. Ellers vil du bli fakturert for timen.",
+        "Vennlig hilsen\nTannlegesenteret Sentrum"
+      ]
+    }
+  },
+  "fi": {
+    "from": "Asunto Oy Koivurinne, isännöitsijä",
+    "original": {
+      "subject": "Vesikatko tiistaina",
+      "body": [
+        "Hyvä asukas,",
+        "Taloyhtiössä on vesikatko tiistaina 20.1. klo 9–14 putkiremontin vuoksi. Varaathan tarvittaessa vettä etukäteen.",
+        "Saunavuorot peruuntuvat samana päivänä. Pahoittelemme aiheutuvaa haittaa.",
+        "Ystävällisin terveisin\nIsännöitsijä"
+      ]
+    }
+  },
+  "he": {
+    "from": "נדל\"ן הכרמל",
+    "original": {
+      "subject": "חידוש חוזה השכירות",
+      "body": [
+        "שלום רב,",
+        "חוזה השכירות של הדירה מסתיים בסוף פברואר. בעל הדירה מעוניין לחדש את החוזה לשנה נוספת באותם תנאים.",
+        "נשמח לקבל את תשובתכם עד ה-15 בינואר כדי שנוכל להכין את המסמכים.",
+        "בברכה,\nמשרד נדל\"ן הכרמל"
+      ]
+    }
+  },
+  "hi": {
+    "from": "यात्रा मित्र टूर्स",
+    "original": {
+      "subject": "आपकी जयपुर यात्रा की जानकारी",
+      "body": [
+        "नमस्ते,",
+        "आपकी जयपुर यात्रा की बुकिंग पक्की हो गई है। आपका ड्राइवर 5 फ़रवरी को सुबह 9 बजे होटल से आपको लेने आएगा।",
+        "कृपया अपना पहचान पत्र साथ रखें और किसी भी बदलाव के लिए हमें एक दिन पहले सूचित करें।",
+        "धन्यवाद,\nयात्रा मित्र टूर्स"
+      ]
+    }
+  },
+  "id": {
+    "from": "Villa Sawah Indah",
+    "original": {
+      "subject": "Konfirmasi pemesanan vila",
+      "body": [
+        "Halo Bapak/Ibu,",
+        "Terima kasih atas pemesanan Anda. Vila dua kamar sudah kami siapkan untuk tanggal 3 sampai 8 Maret.",
+        "Kami juga dapat mengatur penjemputan dari bandara dengan biaya tambahan. Silakan balas email ini jika Anda membutuhkannya.",
+        "Salam hangat,\nTim Villa Sawah Indah"
+      ]
+    }
+  },
+  "ms": {
+    "from": "Pejabat Kemasukan, Kolej Seri Bayu",
+    "original": {
+      "subject": "Dokumen permohonan anda",
+      "body": [
+        "Salam sejahtera,",
+        "Kami telah menerima permohonan anda untuk program sarjana muda. Walau bagaimanapun, salinan sijil akademik anda belum lengkap.",
+        "Sila hantar dokumen tersebut sebelum 30 Januari supaya permohonan anda dapat diproses.",
+        "Sekian, terima kasih.\nPejabat Kemasukan"
+      ]
+    }
+  },
+  "th": {
+    "from": "บ้านทะเลรีสอร์ต",
+    "original": {
+      "subject": "ยืนยันการจองห้องพัก",
+      "body": [
+        "เรียน คุณลูกค้า",
+        "ทางรีสอร์ตขอยืนยันการจองห้องพักวิวทะเลของท่าน ระหว่างวันที่ 10 ถึง 14 กุมภาพันธ์ เช็คอินได้ตั้งแต่เวลา 14.00 น.",
+        "หากท่านต้องการรถรับส่งจากสนามบิน กรุณาแจ้งเวลาเที่ยวบินล่วงหน้าอย่างน้อยหนึ่งวัน",
+        "ขอแสดงความนับถือ\nฝ่ายต้อนรับ"
+      ]
+    }
+  },
+  "vi": {
+    "from": "Công ty Nội thất Mộc Việt",
+    "original": {
+      "subject": "Gửi mẫu sản phẩm",
+      "body": [
+        "Kính gửi Quý khách,",
+        "Chúng tôi đã gửi ba mẫu ghế gỗ qua chuyển phát nhanh vào sáng nay. Dự kiến hàng sẽ đến trong khoảng 5 ngày làm việc.",
+        "Sau khi Quý khách kiểm tra mẫu, xin vui lòng phản hồi để chúng tôi chuẩn bị đơn hàng chính thức.",
+        "Trân trọng,\nPhòng Kinh doanh"
+      ]
+    }
   }
 }

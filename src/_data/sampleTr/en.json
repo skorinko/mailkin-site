@@ -78,5 +78,165 @@
       "Kind regards,\nThe organising committee"
     ],
     "note": "Mailkin reads Russian emails in Cyrillic script and detects them automatically, even when the subject line is in English. Formal closings such as \"С уважением\" (respectfully) become the usual sign-off in your language."
+  },
+  "ko": {
+    "subject": "Your order has been shipped",
+    "body": [
+      "Hello,",
+      "The item you ordered (order no. 20481) was shipped today. International delivery usually takes about 7–10 days and may be delayed at customs.",
+      "You can track the delivery with the tracking number below. If you have any questions, just reply to this email.",
+      "Thank you.\nHaneul Store"
+    ],
+    "note": "Korean emails use polite endings such as 습니다 and 주세요, and often sign off with 드림 (\"from\"). Mailkin turns them into the usual polite phrasing in your language, so order updates and business emails from Korea read naturally."
+  },
+  "ar": {
+    "subject": "Apartment viewing appointment",
+    "body": [
+      "Hello,",
+      "We would like to confirm the apartment viewing next Sunday at 4 p.m. Our representative will be waiting for you at the building entrance.",
+      "Please bring a copy of your ID if you would like to sign the reservation contract on the same day.",
+      "Best regards,\nSales department"
+    ],
+    "note": "Arabic is written right to left. Mailkin translates the text while Mail keeps the email's layout, so the result reads left to right in your language. Greetings such as \"السلام عليكم\" become an ordinary hello."
+  },
+  "nl": {
+    "subject": "Confirmation of your appointment",
+    "body": [
+      "Dear Sir or Madam,",
+      "We hereby confirm your appointment to apply for a passport on Tuesday, December 9 at 10:30 a.m. at the city office.",
+      "Bring your current passport and a recent passport photo. Can't make it? Change or cancel your appointment using the link in this email.",
+      "Kind regards,\nCivil Affairs team"
+    ],
+    "note": "Dutch emails from municipalities, landlords and schools are often formal (\"Geachte heer/mevrouw\") but direct. Mailkin translates the whole message, including times written as 10.30 uur and Dutch date formats."
+  },
+  "pl": {
+    "subject": "Quote for the bathroom renovation",
+    "body": [
+      "Hello,",
+      "Please find attached the quote for the bathroom renovation. The labour cost is PLN 9,800, and materials will be charged separately according to the invoices.",
+      "We can start work on January 12. Please confirm the date by the end of the week.",
+      "Kind regards,\nTomasz Nowak"
+    ],
+    "note": "Polish emails often start with \"Dzień dobry\" and use the formal Pan/Pani. Amounts in złoty and dates come through clearly, which helps with quotes, invoices and messages from contractors."
+  },
+  "tr": {
+    "subject": "About the shipment of your order",
+    "body": [
+      "Hello,",
+      "Your order of 1,200 cotton T-shirts is ready and will leave the port of İzmir this Friday.",
+      "We will send the bill of lading and invoice details separately after shipment. Please let us know if anything changes.",
+      "Best regards,\nForeign Trade Department"
+    ],
+    "note": "Turkish business emails from suppliers and logistics partners use set phrases such as \"Saygılarımızla\" (respectfully). Mailkin keeps quantities, ports and dates intact, which matters most in trade emails."
+  },
+  "uk": {
+    "subject": "Parents' meeting on Thursday",
+    "body": [
+      "Good afternoon, dear parents,",
+      "We invite you to the parents' meeting on Thursday at 6 p.m. in room 214. We will discuss the school trip and the holiday schedule.",
+      "If you can't come, please let the class teacher know in advance.",
+      "Kind regards,\nParents' committee"
+    ],
+    "note": "Mailkin detects Ukrainian separately from Russian, even though both use Cyrillic, so each is translated with the right language model. Formal closings such as \"З повагою\" become the usual sign-off in your language."
+  },
+  "sv": {
+    "subject": "Information about the planning day",
+    "body": [
+      "Hi to all parents and guardians,",
+      "On Friday, January 16, the preschool is closed for a planning day. If you need childcare that day, let us know by January 9.",
+      "Please also remember to label the children's winter clothes with their names.",
+      "Kind regards,\nThe staff at Solrosen"
+    ],
+    "note": "Swedish emails are usually informal, starting with \"Hej\" even from schools and employers. Words like vårdnadshavare (parent or guardian) are translated into the everyday term in your language."
+  },
+  "da": {
+    "subject": "Notice of the residents' meeting",
+    "body": [
+      "Dear residents,",
+      "You are hereby invited to the ordinary residents' meeting on Wednesday, January 21 at 7 p.m. in the community house.",
+      "The agenda includes next year's budget and the renovation of the playground. Proposals must reach the board no later than one week before the meeting.",
+      "Kind regards,\nThe residents' board"
+    ],
+    "note": "Danish emails from housing associations, schools and employers mix formal notices with a friendly tone. Mailkin translates them in full, including times written as kl. 19.00."
+  },
+  "no": {
+    "subject": "Appointment reminder",
+    "body": [
+      "Hi,",
+      "This is a reminder that you have a dentist appointment on Tuesday, January 13 at 8:15 a.m.",
+      "If you can't attend, the appointment must be cancelled at least 24 hours in advance. Otherwise you will be invoiced for it.",
+      "Kind regards,\nTannlegesenteret Sentrum"
+    ],
+    "note": "Mailkin translates Norwegian written in Bokmål, the form used in most emails from businesses, schools and public services. The informal \"Hei\" and \"Vennlig hilsen\" become the usual greeting and sign-off in your language."
+  },
+  "fi": {
+    "subject": "Water outage on Tuesday",
+    "body": [
+      "Dear resident,",
+      "There will be a water outage in the building on Tuesday 20 January from 9 a.m. to 2 p.m. because of pipe renovation. Please store some water in advance if needed.",
+      "Sauna bookings are cancelled on the same day. We apologize for the inconvenience.",
+      "Kind regards,\nProperty manager"
+    ],
+    "note": "Finnish is famously hard for other speakers, with long inflected words and dates like 20.1. Mailkin translates notices from housing companies, schools and employers into plain language you can act on."
+  },
+  "he": {
+    "subject": "Renewal of the rental contract",
+    "body": [
+      "Hello,",
+      "The rental contract for the apartment ends at the end of February. The landlord would like to renew it for another year on the same terms.",
+      "We would be glad to receive your answer by January 15 so that we can prepare the documents.",
+      "Best regards,\nCarmel Real Estate office"
+    ],
+    "note": "Hebrew is written right to left and usually without vowel marks. Mailkin translates the text into your language while Mail keeps the email's layout, so contracts and appointments are easy to follow."
+  },
+  "hi": {
+    "subject": "Details of your Jaipur trip",
+    "body": [
+      "Hello,",
+      "Your booking for the Jaipur trip is confirmed. Your driver will pick you up from the hotel on February 5 at 9 a.m.",
+      "Please keep your ID with you and let us know a day in advance about any changes.",
+      "Thank you,\nYatra Mitra Tours"
+    ],
+    "note": "Mailkin translates Hindi written in Devanagari script. Emails that mix Hindi and English, common in India, are detected by their main language."
+  },
+  "id": {
+    "subject": "Villa booking confirmation",
+    "body": [
+      "Hello,",
+      "Thank you for your booking. We have the two-bedroom villa ready for you from March 3 to 8.",
+      "We can also arrange an airport pickup for an extra charge. Please reply to this email if you need it.",
+      "Warm regards,\nThe Villa Sawah Indah team"
+    ],
+    "note": "Indonesian emails from hotels, suppliers and partners often use the polite address Bapak/Ibu (Sir/Madam). Mailkin translates them naturally, and keeps dates and prices as written."
+  },
+  "ms": {
+    "subject": "Your application documents",
+    "body": [
+      "Greetings,",
+      "We have received your application for the bachelor's programme. However, the copy of your academic certificates is incomplete.",
+      "Please send these documents before January 30 so that your application can be processed.",
+      "Thank you.\nAdmissions Office"
+    ],
+    "note": "Mailkin translates Malay as used in Malaysia, Brunei and Singapore. Formal phrases such as \"Salam sejahtera\" and \"Sekian, terima kasih\" become the usual greeting and closing in your language."
+  },
+  "th": {
+    "subject": "Booking confirmation",
+    "body": [
+      "Dear guest,",
+      "The resort confirms your booking of a sea-view room from February 10 to 14. Check-in is from 2 p.m.",
+      "If you need an airport transfer, please let us know your flight time at least one day in advance.",
+      "Respectfully,\nReception"
+    ],
+    "note": "Thai is written without spaces between words, which makes copy-and-paste translation messy. Mailkin translates the whole email in place, including times written as 14.00 น."
+  },
+  "vi": {
+    "subject": "Product samples sent",
+    "body": [
+      "Dear customer,",
+      "We sent three wooden chair samples by express courier this morning. They should arrive in about 5 working days.",
+      "Once you have checked the samples, please give us your feedback so we can prepare the official order.",
+      "Best regards,\nSales department"
+    ],
+    "note": "Vietnamese emails from factories and suppliers use formal address such as \"Kính gửi Quý khách\" (Dear valued customer). Mailkin keeps the tone polite and the details, like quantities and delivery times, clear."
   }
 }

@@ -26,7 +26,7 @@ From then on, emails in those languages open translated, in place, in all your M
 
 ## Outlook for Mac
 
-Outlook for Mac includes Microsoft Translator. It can offer to translate a message that isn't in your language, or translate such messages automatically, depending on its translation setting. The translation is made by Microsoft's online service.
+Outlook for Mac includes Microsoft Translator. When a message isn't in your language, Outlook offers to translate it, and you choose Translate message. Microsoft documents settings to translate automatically for Outlook on Windows and the web; check your version of Outlook for Mac for the same option. The translation is made by Microsoft's online service. More in [Mailkin vs Outlook's translator](/compare/mailkin-vs-outlook-translator/).
 
 **Good for:** people already using Outlook with a Microsoft 365 account. **Consider:** message text is sent to Microsoft to be translated.
 
@@ -42,7 +42,7 @@ Gmail on the web shows a **Translate message** option for emails in another lang
 
 | | Apple Mail + Mailkin | Outlook for Mac | Gmail on the web |
 |---|---|---|---|
-| Translates when you open an email | Yes | Yes, if set to automatic | Yes, per language |
+| Translates when you open an email | Yes | Offers to translate; you click | Yes, per language |
 | Where translation happens | On your Mac | Microsoft's servers | Google's servers |
 | Accounts | Every account in Mail | Accounts in Outlook | Gmail only |
 | Languages | 25 | Many | Many |

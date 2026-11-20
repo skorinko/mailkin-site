@@ -13,6 +13,12 @@ layout: base.njk
     <a href="{{ g.url }}"><strong>{{ g.data.h1 or g.data.title }}</strong><span>{{ g.data.description }}</span></a>
     {%- endif %}{% endfor %}
   </div>
+  <h2>Use cases</h2>
+  <div class="cards-links">
+    {%- for g in collections.usecase %}{% if g.data.short %}
+    <a href="{{ g.url }}"><strong>{{ g.data.h1 or g.data.title }}</strong><span>{{ g.data.description }}</span></a>
+    {%- endif %}{% endfor %}
+  </div>
   <h2>Comparisons</h2>
   <div class="cards-links">
     {%- for g in collections.compare %}{% if g.data.short %}

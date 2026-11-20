@@ -1,0 +1,16 @@
+---
+title: "Who Uses Mailkin: Email Translation Use Cases | Mailkin"
+description: "How expats, importers, freelancers, support teams and families use Mailkin to read email in other languages inside Apple Mail on the Mac."
+schema: []
+layout: base.njk
+---
+<article class="doc">
+  <h1>Use cases</h1>
+  <p class="answer">Mailkin is for anyone whose inbox regularly brings email in a language they don't read well. Here's how it fits different situations.</p>
+  <div class="cards-links">
+    {%- for g in collections.usecase %}{% if g.data.short %}
+    <a href="{{ g.url }}"><strong>{{ g.data.h1 or g.data.title }}</strong><span>{{ g.data.description }}</span></a>
+    {%- endif %}{% endfor %}
+  </div>
+</article>
+{% include "band.njk" %}

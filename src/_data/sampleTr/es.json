@@ -78,5 +78,165 @@
       "Un cordial saludo,\nLa secretaría del colegio"
     ],
     "note": "El inglés es el idioma de muchos correos que llegan de empresas internacionales, colegios internacionales y servicios de software. Mailkin los traduce al español en cuanto los abres, y Mostrar original recupera el texto en inglés cuando lo necesites."
+  },
+  "ko": {
+    "subject": "Hemos enviado su pedido",
+    "body": [
+      "Hola:",
+      "El artículo que pidió (pedido n.º 20481) ha salido hoy. Los envíos internacionales suelen tardar entre 7 y 10 días y pueden sufrir retrasos en la aduana.",
+      "Puede seguir el envío con el número de seguimiento que aparece a continuación. Si tiene cualquier duda, responda a este correo cuando quiera.",
+      "Muchas gracias.\nHaneul Store"
+    ],
+    "note": "Los correos en coreano usan terminaciones de cortesía como 습니다 y 주세요, y a menudo se despiden con 드림 («de parte de»). Mailkin las convierte en las fórmulas de cortesía habituales en tu idioma, para que los avisos de pedidos y los correos de empresas coreanas se lean con naturalidad."
+  },
+  "ar": {
+    "subject": "Cita para visitar el piso",
+    "body": [
+      "Hola:",
+      "Le confirmamos la visita al piso el próximo domingo a las 16:00. Nuestro agente le esperará en la entrada del edificio.",
+      "Le rogamos que traiga una copia de su documento de identidad si desea firmar el contrato de reserva ese mismo día.",
+      "Un cordial saludo,\nDepartamento de ventas"
+    ],
+    "note": "El árabe se escribe de derecha a izquierda. Mailkin traduce el texto y Mail mantiene el diseño del correo, de modo que el resultado se lee de izquierda a derecha en tu idioma. Saludos como «السلام عليكم» se convierten en un simple hola."
+  },
+  "nl": {
+    "subject": "Confirmación de su cita",
+    "body": [
+      "Estimado/a señor/a:",
+      "Le confirmamos su cita para solicitar el pasaporte el martes 9 de diciembre a las 10:30 en las oficinas municipales.",
+      "Traiga su pasaporte actual y una foto de carné reciente. ¿No puede acudir? Modifique o anule la cita a través del enlace de este correo.",
+      "Atentamente,\nEquipo de Atención Ciudadana"
+    ],
+    "note": "Los correos en neerlandés de ayuntamientos, caseros y colegios suelen ser formales («Geachte heer/mevrouw») pero directos. Mailkin traduce el mensaje completo, incluidas las horas escritas como 10.30 uur y los formatos de fecha neerlandeses."
+  },
+  "pl": {
+    "subject": "Presupuesto de la reforma del baño",
+    "body": [
+      "Buenos días:",
+      "Le adjunto el presupuesto de la reforma del baño. La mano de obra asciende a 9800 zł, y los materiales se cobrarán aparte según factura.",
+      "Podemos empezar las obras a partir del 12 de enero. Le ruego que me confirme la fecha antes de que acabe la semana.",
+      "Un cordial saludo,\nTomasz Nowak"
+    ],
+    "note": "Los correos en polaco suelen empezar con «Dzień dobry» y usan el tratamiento formal Pan/Pani. Los importes en złotys y las fechas se entienden con claridad, algo muy útil en presupuestos, facturas y mensajes de contratistas."
+  },
+  "tr": {
+    "subject": "Sobre el envío de su pedido",
+    "body": [
+      "Hola:",
+      "Su pedido de 1200 camisetas de algodón ya está preparado y saldrá del puerto de Esmirna este viernes.",
+      "Le enviaremos aparte el conocimiento de embarque y los datos de la factura una vez realizado el envío. Si hay algún cambio, avísenos, por favor.",
+      "Atentamente,\nDepartamento de Comercio Exterior"
+    ],
+    "note": "Los correos comerciales en turco de proveedores y empresas de logística usan fórmulas fijas como «Saygılarımızla» (atentamente). Mailkin mantiene intactas las cantidades, los puertos y las fechas, que es lo que más importa en los correos de comercio exterior."
+  },
+  "uk": {
+    "subject": "Reunión de padres el jueves",
+    "body": [
+      "Buenas tardes, estimadas familias:",
+      "Les invitamos a la reunión de padres del jueves a las 18:00 en el aula 214. Hablaremos de la excursión escolar y del calendario de vacaciones.",
+      "Si no pueden asistir, avisen con antelación al tutor de la clase, por favor.",
+      "Atentamente,\nEl comité de padres"
+    ],
+    "note": "Mailkin distingue el ucraniano del ruso, aunque ambos usan el alfabeto cirílico, para traducir cada uno con el modelo de idioma adecuado. Las despedidas formales como «З повагою» se convierten en la despedida habitual en tu idioma."
+  },
+  "sv": {
+    "subject": "Información sobre la jornada de planificación",
+    "body": [
+      "¡Hola a todas las familias!",
+      "El viernes 16 de enero la escuela infantil estará cerrada por jornada de planificación. Si necesitan que cuidemos de sus hijos ese día, avísennos como muy tarde el 9 de enero.",
+      "Recuerden también marcar con el nombre la ropa de invierno de los niños.",
+      "Un saludo,\nEl personal de Solrosen"
+    ],
+    "note": "Los correos en sueco suelen ser informales y empiezan con «Hej» incluso cuando los envían colegios o empresas. Palabras como vårdnadshavare (padre, madre o tutor legal) se traducen por el término cotidiano de tu idioma."
+  },
+  "da": {
+    "subject": "Convocatoria de la junta de vecinos",
+    "body": [
+      "Estimados vecinos:",
+      "Por la presente se les convoca a la junta ordinaria de vecinos el miércoles 21 de enero a las 19:00 en el local comunitario.",
+      "En el orden del día figuran, entre otros asuntos, el presupuesto del año que viene y la renovación del parque infantil. Las propuestas deben llegar a la junta directiva como mínimo una semana antes de la reunión.",
+      "Atentamente,\nLa junta directiva"
+    ],
+    "note": "Los correos en danés de asociaciones de vivienda, colegios y empresas combinan avisos formales con un tono cercano. Mailkin los traduce completos, incluidas las horas escritas como kl. 19.00."
+  },
+  "no": {
+    "subject": "Recordatorio de cita",
+    "body": [
+      "¡Hola!",
+      "Te recordamos que tienes cita con el dentista el martes 13 de enero a las 8:15.",
+      "Si no puedes acudir, debes anular la cita con al menos 24 horas de antelación. De lo contrario, se te cobrará igualmente.",
+      "Un saludo,\nTannlegesenteret Sentrum"
+    ],
+    "note": "Mailkin traduce el noruego escrito en bokmål, la variante que se usa en la mayoría de los correos de empresas, colegios y servicios públicos. Los informales «Hei» y «Vennlig hilsen» se convierten en el saludo y la despedida habituales en tu idioma."
+  },
+  "fi": {
+    "subject": "Corte de agua el martes",
+    "body": [
+      "Estimado vecino:",
+      "El martes 20 de enero, de 9:00 a 14:00, se cortará el agua en el edificio por obras en las tuberías. Si lo necesita, guarde agua con antelación.",
+      "Los turnos de sauna de ese día quedan cancelados. Disculpe las molestias.",
+      "Un cordial saludo,\nEl administrador de la finca"
+    ],
+    "note": "El finés tiene fama de ser difícil, con palabras largas declinadas y fechas como 20.1. Mailkin traduce los avisos de comunidades de vecinos, colegios y empresas a un lenguaje claro, para que sepas qué tienes que hacer."
+  },
+  "he": {
+    "subject": "Renovación del contrato de alquiler",
+    "body": [
+      "Buenos días:",
+      "El contrato de alquiler del piso vence a finales de febrero. El propietario quiere renovarlo un año más en las mismas condiciones.",
+      "Le agradeceríamos que nos respondiera antes del 15 de enero para poder preparar la documentación.",
+      "Un saludo,\nInmobiliaria HaCarmel"
+    ],
+    "note": "El hebreo se escribe de derecha a izquierda y normalmente sin signos vocálicos. Mailkin traduce el texto a tu idioma mientras Mail mantiene el diseño del correo, para que los contratos y las citas se entiendan con facilidad."
+  },
+  "hi": {
+    "subject": "Información sobre su viaje a Jaipur",
+    "body": [
+      "Hola:",
+      "Su reserva del viaje a Jaipur está confirmada. El conductor le recogerá en el hotel el 5 de febrero a las 9:00.",
+      "Lleve consigo su documento de identidad y, si hay algún cambio, avísenos con un día de antelación.",
+      "Gracias,\nYatra Mitra Tours"
+    ],
+    "note": "Mailkin traduce el hindi escrito en alfabeto devanagari. Los correos que mezclan hindi e inglés, muy habituales en la India, se detectan por su idioma principal."
+  },
+  "id": {
+    "subject": "Confirmación de la reserva de la villa",
+    "body": [
+      "Hola:",
+      "Gracias por su reserva. Ya tenemos preparada la villa de dos habitaciones del 3 al 8 de marzo.",
+      "También podemos organizar la recogida en el aeropuerto por un coste adicional. Si la necesita, responda a este correo.",
+      "Un cálido saludo,\nEl equipo de Villa Sawah Indah"
+    ],
+    "note": "Los correos en indonesio de hoteles, proveedores y socios suelen usar el tratamiento de cortesía Bapak/Ibu (señor/señora). Mailkin los traduce con naturalidad y mantiene las fechas y los precios tal como están."
+  },
+  "ms": {
+    "subject": "Documentación de su solicitud",
+    "body": [
+      "Buenos días:",
+      "Hemos recibido su solicitud para el programa de grado. Sin embargo, la copia de sus certificados académicos está incompleta.",
+      "Le rogamos que envíe esos documentos antes del 30 de enero para que podamos tramitar su solicitud.",
+      "Sin otro particular, muchas gracias.\nOficina de Admisiones"
+    ],
+    "note": "Mailkin traduce el malayo tal como se usa en Malasia, Brunéi y Singapur. Fórmulas formales como «Salam sejahtera» y «Sekian, terima kasih» se convierten en el saludo y la despedida habituales en tu idioma."
+  },
+  "th": {
+    "subject": "Confirmación de su reserva",
+    "body": [
+      "Estimado cliente:",
+      "El resort le confirma la reserva de su habitación con vistas al mar del 10 al 14 de febrero. La entrada es a partir de las 14:00.",
+      "Si necesita traslado desde el aeropuerto, indíquenos la hora de su vuelo con al menos un día de antelación.",
+      "Atentamente,\nRecepción"
+    ],
+    "note": "El tailandés se escribe sin espacios entre palabras, lo que complica traducirlo copiando y pegando. Mailkin traduce todo el correo sin salir de él, incluidas las horas escritas como 14.00 น."
+  },
+  "vi": {
+    "subject": "Envío de muestras del producto",
+    "body": [
+      "Estimado cliente:",
+      "Esta mañana le hemos enviado por mensajería urgente tres muestras de sillas de madera. Deberían llegar en unos 5 días laborables.",
+      "Cuando haya revisado las muestras, le rogamos que nos dé su opinión para que podamos preparar el pedido definitivo.",
+      "Atentamente,\nDepartamento comercial"
+    ],
+    "note": "Los correos en vietnamita de fábricas y proveedores usan tratamientos formales como «Kính gửi Quý khách» (estimado cliente). Mailkin mantiene el tono cortés y deja claros los detalles, como las cantidades y los plazos de entrega."
   }
 }
