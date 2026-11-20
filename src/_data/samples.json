@@ -1,0 +1,110 @@
+{
+  "de": {
+    "from": "Hausverwaltung Becker",
+    "original": {
+      "subject": "Wartung der Heizung am 3. Dezember",
+      "body": [
+        "Sehr geehrte Mieterinnen und Mieter,",
+        "am Mittwoch, dem 3. Dezember, wird zwischen 8 und 12 Uhr die Heizungsanlage gewartet. In dieser Zeit gibt es kein warmes Wasser.",
+        "Bitte sorgen Sie dafür, dass der Heizungskeller zugänglich ist. Vielen Dank für Ihr Verständnis.",
+        "Mit freundlichen Grüßen\nIhre Hausverwaltung"
+      ]
+    }
+  },
+  "fr": {
+    "from": "Atelier Lumière",
+    "original": {
+      "subject": "Retard de livraison de votre commande n° 4812",
+      "body": [
+        "Bonjour,",
+        "Nous vous informons que votre commande n° 4812 sera expédiée avec une semaine de retard, en raison d'une rupture de stock chez notre fournisseur.",
+        "Nous vous prions de nous excuser pour ce contretemps. N'hésitez pas à nous contacter si vous souhaitez modifier ou annuler votre commande.",
+        "Cordialement,\nL'équipe Atelier Lumière"
+      ]
+    }
+  },
+  "es": {
+    "from": "Hotel Mirador del Sur",
+    "original": {
+      "subject": "Confirmación de su reserva",
+      "body": [
+        "Estimado cliente:",
+        "Le confirmamos su reserva de una habitación doble del 14 al 17 de marzo. La entrada es a partir de las 15:00 y la salida antes de las 11:00.",
+        "Si necesita traslado desde el aeropuerto, responda a este correo y lo organizaremos.",
+        "Un cordial saludo,\nRecepción"
+      ]
+    }
+  },
+  "it": {
+    "from": "Studio Rinaldi Commercialisti",
+    "original": {
+      "subject": "Documenti per la dichiarazione dei redditi",
+      "body": [
+        "Gentile cliente,",
+        "per preparare la dichiarazione dei redditi abbiamo bisogno delle ricevute delle spese mediche e del contratto di affitto entro il 30 aprile.",
+        "Può inviarci i documenti rispondendo a questa email oppure caricarli nella sua area riservata.",
+        "Cordiali saluti,\nStudio Rinaldi"
+      ]
+    }
+  },
+  "ja": {
+    "from": "株式会社さくら商事 営業部 田中",
+    "original": {
+      "subject": "打ち合わせ日程のご相談",
+      "body": [
+        "いつも大変お世話になっております。",
+        "新製品の件で、来週お打ち合わせのお時間をいただけますでしょうか。火曜日または木曜日の午後でご都合のよい時間をお知らせください。",
+        "お忙しいところ恐縮ですが、よろしくお願いいたします。",
+        "田中"
+      ]
+    }
+  },
+  "zh": {
+    "from": "深圳华达电子有限公司 李经理",
+    "original": {
+      "subject": "关于订单报价的回复",
+      "body": [
+        "您好！",
+        "感谢您的询价。5000件的单价为每件2.35美元，含包装，交货期为确认订单后25天。",
+        "如需样品，我们可以在三个工作日内寄出。期待与您合作。",
+        "此致\n敬礼\n李经理"
+      ]
+    }
+  },
+  "pt": {
+    "from": "Agência Onda Digital",
+    "original": {
+      "subject": "Feedback sobre a primeira versão do site",
+      "body": [
+        "Olá, tudo bem?",
+        "Revisamos a primeira versão do site e gostamos muito do layout. Só pedimos para trocar as fotos da página inicial e deixar o formulário de contato mais curto.",
+        "Conseguimos receber a nova versão até sexta-feira?",
+        "Abraços,\nMariana"
+      ]
+    }
+  },
+  "ru": {
+    "from": "Оргкомитет конференции «ТехноФорум»",
+    "original": {
+      "subject": "Подтверждение участия в конференции",
+      "body": [
+        "Здравствуйте!",
+        "Благодарим вас за регистрацию на конференцию «ТехноФорум», которая пройдёт 22–23 апреля. Ваш доклад включён в программу второго дня.",
+        "Просим подтвердить участие до 1 апреля, ответив на это письмо.",
+        "С уважением,\nОргкомитет"
+      ]
+    }
+  },
+  "en": {
+    "from": "Greenfield International School",
+    "original": {
+      "subject": "Parent-teacher meetings next week",
+      "body": [
+        "Dear parents,",
+        "Parent-teacher meetings will take place next Tuesday and Wednesday from 4 to 7 p.m. Please book a 15-minute slot with your child's class teacher using the link below by Friday.",
+        "If none of the times work for you, let us know and we'll arrange a video call.",
+        "Best wishes,\nThe school office"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "de": {
+    "subject": "Heating maintenance on December 3",
+    "body": [
+      "Dear tenants,",
+      "On Wednesday, December 3, the heating system will be serviced between 8 a.m. and 12 noon. There will be no hot water during this time.",
+      "Please make sure the boiler room is accessible. Thank you for your understanding.",
+      "Kind regards\nYour property management"
+    ],
+    "note": "German emails are often formal, using Sie and set phrases such as \"Mit freundlichen Grüßen\" (kind regards). Letters from landlords, authorities and insurers tend to use long compound words, which Apple's translation splits into readable English."
+  },
+  "fr": {
+    "subject": "Delivery delay for your order no. 4812",
+    "body": [
+      "Hello,",
+      "We would like to let you know that your order no. 4812 will ship one week late, due to a stock shortage at our supplier.",
+      "We apologize for this inconvenience. Feel free to contact us if you would like to change or cancel your order.",
+      "Best regards,\nThe Atelier Lumière team"
+    ],
+    "note": "French business emails favour polite formulas such as \"Nous vous prions de\" and \"Cordialement\". Mailkin keeps the meaning while turning them into the plain phrasing you'd expect in your language."
+  },
+  "es": {
+    "subject": "Confirmation of your booking",
+    "body": [
+      "Dear guest,",
+      "We confirm your booking of a double room from March 14 to 17. Check-in is from 3 p.m. and check-out is before 11 a.m.",
+      "If you need a transfer from the airport, reply to this email and we will arrange it.",
+      "Kind regards,\nReception"
+    ],
+    "note": "Spanish emails come from Spain and much of Latin America, with small differences in vocabulary. Apple's translation handles both, so a booking from Madrid and an invoice from Mexico City read equally well."
+  },
+  "it": {
+    "subject": "Documents for your tax return",
+    "body": [
+      "Dear client,",
+      "To prepare your tax return we need the receipts for medical expenses and the rental contract by April 30.",
+      "You can send us the documents by replying to this email or upload them to your private area.",
+      "Best regards,\nStudio Rinaldi"
+    ],
+    "note": "Italian emails from offices, schools and public bodies use the formal Lei and phrases such as \"Gentile cliente\" and \"Cordiali saluti\". Mailkin translates the whole message, including subject lines and dates."
+  },
+  "ja": {
+    "subject": "Scheduling a meeting",
+    "body": [
+      "Thank you as always for your support.",
+      "Could we have some of your time next week for a meeting about the new product? Please let us know a time that suits you on Tuesday or Thursday afternoon.",
+      "I know you are busy, and I appreciate your help.",
+      "Tanaka"
+    ],
+    "note": "Japanese business emails open and close with set courtesy phrases such as お世話になっております and よろしくお願いいたします. Apple's translation turns them into natural greetings rather than word-for-word text, so the actual request stands out."
+  },
+  "zh": {
+    "subject": "Reply regarding your quotation request",
+    "body": [
+      "Hello,",
+      "Thank you for your enquiry. The unit price for 5,000 pieces is US$2.35 each, including packaging, with delivery 25 days after the order is confirmed.",
+      "If you need samples, we can send them within three working days. We look forward to working with you.",
+      "Best regards,\nManager Li"
+    ],
+    "note": "Mailkin translates Chinese emails written in simplified or traditional characters, common with suppliers, factories and partners in mainland China, Taiwan and Hong Kong. Prices, quantities and dates come through unchanged."
+  },
+  "pt": {
+    "subject": "Feedback on the first version of the website",
+    "body": [
+      "Hi, how are you?",
+      "We reviewed the first version of the website and really like the layout. We'd just ask you to change the photos on the home page and make the contact form shorter.",
+      "Could we get the new version by Friday?",
+      "All the best,\nMariana"
+    ],
+    "note": "Portuguese emails from Brazil and from Portugal differ in tone and vocabulary. Brazilian emails are often informal, opening with \"Olá, tudo bem?\", while emails from Portugal tend to be more formal. Mailkin translates both."
+  },
+  "ru": {
+    "subject": "Confirmation of your conference participation",
+    "body": [
+      "Hello,",
+      "Thank you for registering for the TechnoForum conference, which takes place on April 22–23. Your talk has been included in the programme for the second day.",
+      "Please confirm your participation by April 1 by replying to this email.",
+      "Kind regards,\nThe organising committee"
+    ],
+    "note": "Mailkin reads Russian emails in Cyrillic script and detects them automatically, even when the subject line is in English. Formal closings such as \"С уважением\" (respectfully) become the usual sign-off in your language."
+  }
+}

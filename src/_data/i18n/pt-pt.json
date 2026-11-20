@@ -1,0 +1,216 @@
+{
+  "oneLiner": "O Mailkin é uma app para Mac que traduz e-mails automaticamente no Apple Mail, no seu Mac, em 25 idiomas.",
+  "skip": "Saltar para o conteúdo",
+  "nav": { "translate": "Como funciona", "languages": "Idiomas", "pricing": "Preço", "faq": "Perguntas frequentes", "support": "Suporte" },
+  "footer": {
+    "home": "Início", "pricing": "Preço", "languages": "Idiomas", "faq": "Perguntas frequentes", "support": "Suporte",
+    "guides": "Guias", "changelog": "Novidades", "press": "Kit de imprensa",
+    "terms": "Termos", "refunds": "Política de reembolso", "privacy": "Política de privacidade",
+    "languageLabel": "Idioma", "englishOnly": "em inglês"
+  },
+  "cta": {
+    "download": "Descarregar para Mac",
+    "pricing": "14,99 € pagamento único · Preço",
+    "note": "Descarga gratuita: 30 e-mails traduzidos grátis e, depois, uma compra única. Requer macOS 26 ou posterior. Brevemente na Mac App Store.",
+    "appStoreAlt": "Descarregar na Mac App Store",
+    "bandTitle": "Leia o próximo e-mail estrangeiro no seu idioma",
+    "bandText": "Descarregue o Mailkin, ative-o no Mail e abra um e-mail. Os primeiros 30 e-mails traduzidos são gratuitos."
+  },
+  "facts": {
+    "title": "O Mailkin em resumo",
+    "rows": [
+      ["O que é", "Uma app para Mac que acrescenta tradução automática ao Apple Mail. Os e-mails noutros idiomas aparecem no seu idioma quando os abre."],
+      ["Como traduz", "Com a tradução integrada da Apple, no seu Mac. Os seus e-mails nunca são enviados para lado nenhum."],
+      ["Idiomas", "25 idiomas, entre os quais alemão, chinês, coreano, espanhol, francês, japonês, português e russo."],
+      ["Preço", "30 e-mails traduzidos grátis e, depois, uma compra única de 14,99 € / 14,99 US$. Sem subscrição."],
+      ["Requisitos", "Um Mac com macOS 26 ou posterior e o Apple Mail. Sem conta e sem registo."]
+    ]
+  },
+  "breadcrumbHome": "Início",
+  "lastUpdated": "Última atualização",
+
+  "home": {
+    "title": "Mailkin: tradutor de e-mail para o Apple Mail no Mac",
+    "description": "O Mailkin traduz e-mails noutros idiomas diretamente no Mail do seu Mac. Privado e no seu dispositivo. Os primeiros 30 e-mails traduzidos são gratuitos.",
+    "h1": "Leia todos os e-mails no seu idioma",
+    "lead": "O Mailkin traduz e-mails escritos noutros idiomas diretamente no Mail do seu Mac. Abra um e-mail em alemão, japonês ou espanhol e leia-o no seu idioma, no mesmo sítio.",
+    "iconAlt": "Ícone da app Mailkin",
+    "shotTranslatedAlt": "Um e-mail em alemão traduzido para inglês no Mail, com um banner a indicar Traduzido de alemão",
+    "shotOptionsAlt": "As opções do Mailkin no Mail: Mostrar original e escolhas para este e-mail e este remetente",
+    "cards": [
+      ["Automático", "Os e-mails nos idiomas que escolher são traduzidos quando os abre. Os e-mails que já estão no seu idioma não são alterados."],
+      ["Um clique para voltar", "Mostrar original repõe o texto original. Escolha traduzir sempre ou nunca traduzir um e-mail ou um remetente."],
+      ["Privado", "A tradução é feita no seu Mac com a tradução integrada da Apple. Os seus e-mails nunca são enviados para lado nenhum."],
+      ["25 idiomas", "Entre os quais alemão, chinês, coreano, espanhol, francês, italiano, japonês, português e russo."],
+      ["Pague uma vez", "Sem subscrição. Uma única compra desbloqueia traduções ilimitadas nos seus Macs. <a href=\"{p}/buy/\">Ver preço</a>."],
+      ["A sua caixa de correio fica igual", "O Mailkin só muda o que o Mail lhe mostra. Os e-mails propriamente ditos nunca são modificados."]
+    ],
+    "originalTitle": "O original está à distância de um clique",
+    "howTitle": "Como funciona",
+    "howSteps": [
+      "Descarregue o Mailkin e escolha o idioma em que quer ler os seus e-mails.",
+      "Escolha os idiomas em que recebe e-mails. O macOS descarrega cada um deles uma única vez a partir da Apple.",
+      "Ative o Mailkin em Mail › Definições › Extensões. A partir daí, os e-mails nesses idiomas abrem já traduzidos."
+    ],
+    "howMore": "Saiba mais sobre <a href=\"{p}/translate-email-apple-mail/\">como traduzir e-mails no Apple Mail</a>.",
+    "languagesTitle": "Traduza e-mails de 25 idiomas",
+    "languagesText": "O Mailkin deteta o idioma de cada e-mail que abre. Estes são alguns dos mais comuns:",
+    "languagesAll": "Os 25 idiomas",
+    "faqTitle": "Perguntas",
+    "faqMore": "Mais perguntas e respostas"
+  },
+
+  "hub": {
+    "title": "Traduzir e-mails no Apple Mail no Mac | Mailkin",
+    "description": "O Apple Mail não traduz e-mails completos por si só. O Mailkin acrescenta ao Mail do seu Mac tradução automática no dispositivo, em 25 idiomas.",
+    "h1": "Traduza e-mails no Apple Mail do seu Mac",
+    "answer": "O Apple Mail no Mac não consegue traduzir um e-mail por si só: apenas pode selecionar um excerto e escolher Traduzir, um bocado de cada vez. O Mailkin acrescenta tradução automática ao Mail. Os e-mails noutros idiomas aparecem no seu idioma assim que os abre, traduzidos no seu Mac.",
+    "builtinTitle": "O Apple Mail traduz e-mails?",
+    "builtinText": "Não automaticamente. O macOS tem o comando Traduzir: selecione texto num e-mail, clique nele com a tecla Control premida e escolha Traduzir. Uma pequena janela mostra a tradução desse excerto. Tem de repetir o processo em cada e-mail, o e-mail continua no idioma original e a formatação não é mantida.",
+    "stepsTitle": "Como traduzir todos os e-mails automaticamente",
+    "steps": [
+      "<a href=\"/download\" data-track=\"download\" data-placement=\"hub_steps\">Descarregue o Mailkin</a> e abra-o.",
+      "Escolha o idioma em que quer ler os seus e-mails, por exemplo português.",
+      "Escolha os idiomas em que recebe e-mails. O macOS descarrega cada um deles uma única vez a partir da Apple.",
+      "No Mail, abra <strong>Mail › Definições › Extensões</strong> e ative o Mailkin.",
+      "Abra um e-mail num desses idiomas. Aparece traduzido, com um banner a indicar em que idioma estava."
+    ],
+    "stepsNote": "A configuração demora cerca de dois minutos. O botão Verificar configuração do Mailkin confirma cada passo e pode abrir um e-mail de teste.",
+    "lookTitle": "Como fica um e-mail traduzido",
+    "lookText": "A tradução substitui o texto na visualização da mensagem e mantém o esquema, as ligações e as imagens do e-mail. Um banner no topo indica em que idioma o e-mail estava. Clique em <strong>Opções</strong> no banner para mostrar o original, corrigir o idioma detetado ou escolher traduzir sempre ou nunca este e-mail ou este remetente.",
+    "privateTitle": "Privado: os e-mails nunca saem do seu Mac",
+    "privateText": "O Mailkin usa a tradução no dispositivo da Apple, o mesmo motor da app Traduzir. Nenhum texto dos e-mails é enviado ao Mailkin, à Apple ou a qualquer outra entidade, e não há conta. O Mailkin só muda o que o Mail mostra: os e-mails da sua caixa ficam exatamente como chegaram. Os e-mails assinados não são alterados.",
+    "accountsTitle": "Funciona com todas as contas do Mail",
+    "accountsText": "O Mailkin funciona dentro do Mail, por isso traduz e-mails de qualquer conta que lá tenha adicionado: iCloud, Gmail, Outlook e Exchange, Yahoo ou qualquer outra conta IMAP.",
+    "compareTitle": "Traduzir do macOS ou Mailkin?",
+    "compareHead": ["", "Comando Traduzir do macOS", "Mailkin"],
+    "compareRows": [
+      ["Traduz quando abre um e-mail", "Não, tem de selecionar texto de cada vez", "Sim"],
+      ["E-mail completo, com formatação", "Não, uma janela com texto simples", "Sim, no mesmo sítio"],
+      ["Memoriza remetentes e idiomas", "Não", "Sim"],
+      ["Funciona no seu Mac", "Sim, com idiomas descarregados", "Sim, sempre"],
+      ["Preço", "Gratuito", "30 e-mails grátis, depois 14,99 € / 14,99 US$ uma única vez"]
+    ],
+    "faq": [
+      ["O Mailkin traduz os e-mails que escrevo?", "Ainda não. O Mailkin traduz os e-mails que recebe. Pode responder no seu próprio idioma ou usar o comando Traduzir no texto que escrever."],
+      ["Funciona sem ligação à internet?", "Sim. Depois de o macOS descarregar um idioma, os e-mails nesse idioma são traduzidos sem ligação à internet."],
+      ["Os meus e-mails são enviados para um servidor?", "Não. A tradução é feita no seu Mac com a tradução integrada da Apple. O Mailkin não tem nenhum servidor que veja os seus e-mails."],
+      ["O Mailkin altera os meus e-mails?", "Não. Só muda o que o Mail apresenta. O original está sempre à distância de um clique, em Opções › Mostrar original."]
+    ]
+  },
+
+  "languages": {
+    "title": "Idiomas que o Mailkin traduz no Apple Mail | Mailkin",
+    "description": "O Mailkin traduz e-mails no Apple Mail entre 25 idiomas, no seu Mac. Veja a lista completa e como os idiomas são descarregados e detetados.",
+    "h1": "25 idiomas, traduzidos no Mail",
+    "intro": "O Mailkin usa a tradução integrada da Apple, por isso suporta os idiomas que o macOS traduz no seu Mac. Qualquer e-mail num destes idiomas pode ser apresentado em qualquer outro:",
+    "downloadTitle": "Os idiomas são descarregados uma única vez",
+    "downloadText": "Quando escolhe um idioma no Mailkin, o macOS descarrega-o uma única vez a partir da Apple. A partir daí, os e-mails nesse idioma são traduzidos no seu Mac, mesmo sem ligação à internet.",
+    "detectTitle": "O idioma de cada e-mail é detetado",
+    "detectText": "O Mailkin reconhece o idioma de cada e-mail que abre. Se se enganar, escolha o idioma correto em Opções, no banner do e-mail.",
+    "choiceTitle": "Decide o que é traduzido",
+    "choiceText": "Para cada idioma, escolha se o Mailkin traduz automaticamente, só quando pedir ou nunca. Os e-mails que já estão no seu idioma nunca são alterados.",
+    "pagesTitle": "Guias por idioma"
+  },
+
+  "langPage": {
+    "title": "{Lang}: traduzir e-mails no Apple Mail do Mac | Mailkin",
+    "description": "Leia e-mails em {lang} traduzidos para {target} diretamente no Apple Mail. O Mailkin traduz automaticamente e em privado no seu Mac. 30 e-mails grátis.",
+    "h1": "Traduza e-mails em {lang} no Apple Mail",
+    "intro": "O Mailkin mostra em {target} os e-mails escritos em {lang} assim que os abre no Mail do seu Mac. A tradução aparece no lugar do texto original, mantém o esquema do e-mail e é feita inteiramente no seu Mac.",
+    "exampleTitle": "Exemplo: um e-mail em {lang}",
+    "originalLabel": "Original em {lang}",
+    "translatedLabel": "O que vê no Mail com o Mailkin",
+    "exampleNote": "Tradução automática feita pelo motor no dispositivo da Apple. Mostrar original repõe o texto original.",
+    "noteTitle": "Sobre os e-mails em {lang}",
+    "setupTitle": "Como configurar",
+    "steps": [
+      "<a href=\"/download\" data-track=\"download\" data-placement=\"language_page\">Descarregue o Mailkin</a> e escolha {target} como o idioma em que lê os seus e-mails.",
+      "Ative o {lang} no separador Idiomas do Mailkin. O macOS descarrega-o uma única vez a partir da Apple.",
+      "Ative o Mailkin em <strong>Mail › Definições › Extensões</strong>.",
+      "Abra um e-mail em {lang}. Aparece em {target}, com um banner a indicar que foi traduzido."
+    ],
+    "faqTitle": "Perguntas",
+    "faq": [
+      ["O e-mail em {lang} é enviado pela internet para ser traduzido?", "Não. O Mailkin usa a tradução no dispositivo da Apple. O macOS descarrega o {lang} uma única vez a partir da Apple e, a partir daí, os e-mails em {lang} são traduzidos no seu Mac sem serem enviados para lado nenhum."],
+      ["E se o Mailkin detetar o idioma errado?", "Clique em Opções no banner do e-mail e escolha o idioma correto em Idioma. O Mailkin volta a traduzir o e-mail."],
+      ["Posso manter alguns e-mails em {lang}?", "Sim. Defina um remetente ou um único e-mail como Não traduzir, ou escolha que o {lang} só seja traduzido quando pedir."]
+    ],
+    "otherTitle": "Outros idiomas"
+  },
+
+  "buy": {
+    "title": "Preço do Mailkin",
+    "description": "O Mailkin custa 14,99 € / 14,99 US$ num pagamento único. Sem subscrição. Os primeiros 30 e-mails traduzidos são gratuitos.",
+    "h1": "Pague uma vez. Traduza todos os e-mails.",
+    "lead": "O Mailkin Translator Lifetime desbloqueia traduções ilimitadas no Mail do seu Mac. Sem subscrição, sem conta.",
+    "per": "Compra única. O preço inclui IVA ou imposto sobre vendas, quando aplicável.",
+    "waiting": "O pagamento online estará disponível em breve",
+    "tryFirst": "Experimente primeiro: <a href=\"/download\" data-track=\"download\" data-placement=\"buy_try_first\">descarregue o Mailkin</a> e os primeiros 30 e-mails traduzidos são gratuitos.",
+    "cards": [
+      ["O que recebe", "Uma chave de licença do Mailkin Translator Lifetime, enviada por e-mail logo após a compra. Cole-a no Mailkin para desbloquear traduções ilimitadas."],
+      ["Traduções ilimitadas", "Todos os e-mails nos idiomas que escolher são traduzidos no Mail, sem limite mensal."],
+      ["Todos os seus Macs", "Use a sua licença em todos os Macs que utiliza pessoalmente."],
+      ["Atualizações incluídas", "Todas as atualizações do Mailkin 1 estão incluídas e chegam através da própria app."],
+      ["Privado", "A tradução é feita no seu Mac. Os seus e-mails nunca são enviados para lado nenhum."],
+      ["Reembolso em 14 dias", "Não ficou satisfeito? Obtenha o reembolso total no prazo de 14 dias após a compra. Consulte a <a href=\"/refunds/\">Política de reembolso</a>."]
+    ],
+    "waysTitle": "Duas formas de comprar",
+    "wayWeb": "<strong>Neste site</strong>: descarregue o Mailkin em mailkin.app e desbloqueie-o com uma chave de licença. O nosso processo de encomenda é gerido pelo nosso revendedor online Paddle.com, que é o Merchant of Record (vendedor oficial) destas encomendas.",
+    "wayStore": "<strong>Na Mac App Store</strong> (brevemente): compre o Mailkin Translator Lifetime na versão da App Store. A Apple trata desse pagamento, e a compra pode ser partilhada através da Partilha com a família.",
+    "smallKeys": "Uma chave de licença desbloqueia a versão descarregada de mailkin.app; uma compra na App Store desbloqueia a versão da App Store. As compras não passam de uma versão para a outra.",
+    "smallTerms": "Requer macOS 26 ou posterior. Ao comprar, aceita os <a href=\"/terms/\">Termos</a> e a <a href=\"/refunds/\">Política de reembolso</a>. Questões: <a href=\"mailto:macapps.support@icloud.com\">macapps.support@icloud.com</a>.",
+    "js": {
+      "buy": "Comprar o Mailkin",
+      "sandbox": "Modo sandbox: apenas compras de teste. Use o cartão 4242 4242 4242 4242.",
+      "thanks": "Obrigado! A sua chave de licença está a ser enviada{to}. Normalmente chega em menos de um minuto. Se não a encontrar, verifique a pasta de spam.",
+      "thanksTo": " para {email}",
+      "done": "Compra concluída"
+    }
+  },
+
+  "support": {
+    "title": "Suporte do Mailkin",
+    "description": "Ajuda com o Mailkin, o tradutor de e-mail para o Mail no Mac: configuração, questões sobre tradução, compras e contacto.",
+    "h1": "Suporte",
+    "intro": "Questões, problemas ou ideias? Envie um e-mail para <a href=\"mailto:macapps.support@icloud.com\">macapps.support@icloud.com</a>. As mensagens chegam diretamente ao programador.",
+    "sections": [
+      ["Configuração", "<p><a href=\"/download\" data-track=\"download\" data-placement=\"support_setup\">Descarregue o Mailkin</a>, abra a imagem de disco e arraste o Mailkin para Aplicações. Depois, abra o Mailkin e siga a configuração. Demora cerca de dois minutos:</p><ol><li>Escolha o idioma para o qual quer que os e-mails sejam traduzidos.</li><li>Escolha os idiomas em que recebe e-mails. O macOS descarrega cada um deles uma única vez a partir da Apple.</li><li>No Mail, abra <strong>Mail › Definições › Extensões</strong> e ative o Mailkin.</li></ol>"],
+      ["Um e-mail não foi traduzido", "<ul><li><strong>Verifique se o idioma está ativado.</strong> O Mailkin só traduz os idiomas ativados no separador Idiomas, e só depois de descarregados.</li><li><strong>E-mails muito longos</strong>, com mais de 20 000 caracteres, como newsletters grandes, não são traduzidos automaticamente. Clique em <strong>Opções</strong> no banner do e-mail e, depois, em <strong>Traduzir este e-mail</strong>.</li><li><strong>Idioma detetado errado?</strong> Escolha o correto em <strong>Idioma</strong>, nas mesmas Opções.</li><li><strong>Use Verificar configuração.</strong> Abra o Mailkin e clique no botão do estetoscópio no canto superior direito. Verifica cada passo e pode abrir um e-mail de teste no Mail para confirmar que a tradução funciona.</li></ul>"],
+      ["Mostrar o original", "<p>Clique em <strong>Opções</strong> no banner por cima de um e-mail traduzido e, depois, em <strong>Mostrar original</strong>. Também pode definir um e-mail ou um remetente como <strong>Traduzir sempre</strong> ou <strong>Não traduzir</strong>.</p>"],
+      ["Idiomas", "<p>O Mailkin usa a tradução integrada da Apple, que suporta 25 idiomas. Consulte a <a href=\"{p}/languages/\">lista completa de idiomas</a>.</p>"],
+      ["Traduções gratuitas e compra", "<p>Os primeiros 30 e-mails traduzidos são gratuitos. Depois disso, a compra única <strong>Mailkin Translator Lifetime</strong> desbloqueia traduções ilimitadas, sem subscrição. Os e-mails já traduzidos continuam traduzidos. Consulte o <a href=\"{p}/buy/\">Preço</a>.</p>"],
+      ["Chaves de licença (compradas em mailkin.app)", "<ul><li><strong>Desbloquear:</strong> abra o Mailkin, clique em <strong>Desbloquear</strong>, cole a chave de licença do e-mail da compra e clique em <strong>Ativar</strong>. Cole a chave completa, a começar por <code>MK1-</code>.</li><li><strong>Outro Mac:</strong> introduza a mesma chave em todos os Macs que utiliza pessoalmente.</li><li><strong>Perdeu a chave?</strong> Envie-nos um e-mail a partir do endereço com que fez a compra e voltamos a enviá-la.</li><li><strong>Reembolsos</strong> no prazo de 14 dias: consulte a <a href=\"/refunds/\">Política de reembolso</a>.</li></ul>"],
+      ["Compras na App Store", "<p>Comprou noutro Mac ou através da Partilha com a família? Abra o Mailkin, clique em <strong>Desbloquear</strong> e, depois, em <strong>Restaurar compras</strong>.</p><p>Para reembolsos, use <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>, uma vez que é a Apple que trata dos pagamentos da App Store.</p>"],
+      ["Remover o Mailkin", "<p>Desative o Mailkin em <strong>Mail › Definições › Extensões</strong> e, depois, mova o Mailkin para o Lixo. Os seus e-mails não são afetados: o Mailkin nunca altera os e-mails da sua caixa.</p>"]
+    ],
+    "faqLink": "Procura respostas a questões gerais? Consulte as <a href=\"{p}/faq/\">Perguntas frequentes</a>."
+  },
+
+  "faq": {
+    "title": "Mailkin: perguntas sobre traduzir e-mails no Apple Mail",
+    "description": "Respostas sobre o Mailkin, a app para Mac que traduz e-mails no Apple Mail: privacidade, idiomas, uso offline, contas, preço e requisitos.",
+    "h1": "Perguntas e respostas",
+    "items": [
+      ["O que é o Mailkin?", "O Mailkin é uma app para Mac que acrescenta tradução automática ao Apple Mail. Quando abre um e-mail noutro idioma, o Mailkin mostra-o no seu idioma, no mesmo sítio, com o original à distância de um clique."],
+      ["O Apple Mail consegue traduzir e-mails por si só?", "Só aos bocados. No Mail do Mac, pode selecionar texto, clicar nele com a tecla Control premida e escolher Traduzir, que mostra a tradução da seleção numa pequena janela. O Mailkin traduz o e-mail completo automaticamente quando o abre, mantendo a formatação."],
+      ["Os meus e-mails são enviados para algum lado para serem traduzidos?", "Não. O Mailkin usa a tradução integrada da Apple, que funciona no seu Mac. Os seus e-mails não são enviados ao Mailkin, à Apple nem a qualquer serviço de tradução, e não há conta."],
+      ["Que idiomas traduz o Mailkin?", "25 idiomas: alemão, árabe, chinês, coreano, dinamarquês, espanhol, finlandês, francês, hebraico, hindi, indonésio, inglês, italiano, japonês, malaio, neerlandês, norueguês, polaco, português, russo, sueco, tailandês, turco, ucraniano e vietnamita. Veja <a href=\"{p}/languages/\">todos os idiomas</a>."],
+      ["Funciona sem ligação à internet?", "Sim. O macOS descarrega cada idioma que escolher uma única vez a partir da Apple. A partir daí, a tradução funciona sem ligação à internet."],
+      ["O Mailkin altera os e-mails da minha caixa?", "Não. Só muda o que o Mail apresenta. Os e-mails ficam exatamente como chegaram, e Mostrar original repõe o texto original."],
+      ["Funciona com Gmail, Outlook ou iCloud?", "Sim, desde que leia essa conta no Apple Mail do seu Mac. O Mailkin traduz e-mails de qualquer conta adicionada ao Mail."],
+      ["O Mailkin traduz os e-mails que escrevo ou a que respondo?", "Ainda não. O Mailkin traduz os e-mails que recebe."],
+      ["Posso deixar de traduzir alguns e-mails ou remetentes?", "Sim. Use Opções no banner de um e-mail para traduzir sempre ou nunca esse e-mail ou remetente, e escolha para cada idioma se o Mailkin traduz automaticamente, só quando pedir ou nunca."],
+      ["Quanto custa o Mailkin?", "Os primeiros 30 e-mails traduzidos são gratuitos. Depois disso, uma compra única de 14,99 € / 14,99 US$ desbloqueia traduções ilimitadas. Não há subscrição. Consulte o <a href=\"{p}/buy/\">Preço</a>."],
+      ["De que preciso para o usar?", "Um Mac com macOS 26 ou posterior e o Apple Mail. O Mailkin não funciona no iPhone nem no iPad."],
+      ["Onde posso obter o Mailkin?", "Descarregue-o em mailkin.app. Estará brevemente disponível na Mac App Store."],
+      ["Como obtenho um reembolso?", "As compras feitas em mailkin.app podem ser reembolsadas na totalidade no prazo de 14 dias; consulte a <a href=\"/refunds/\">Política de reembolso</a>. As compras na App Store são reembolsadas pela Apple."]
+    ]
+  },
+
+  "notFound": {
+    "title": "Página não encontrada | Mailkin",
+    "h1": "Página não encontrada",
+    "text": "Esta página não existe. Experimente a <a href=\"{p}/\">página inicial</a> ou o <a href=\"{p}/support/\">Suporte</a>."
+  }
+}

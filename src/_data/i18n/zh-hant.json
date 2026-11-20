@@ -1,0 +1,216 @@
+{
+  "oneLiner": "Mailkin 是一款 Mac App，能在 Apple Mail（「郵件」）中直接在你的 Mac 上自動翻譯郵件，支援 25 種語言。",
+  "skip": "跳至主要內容",
+  "nav": { "translate": "運作方式", "languages": "語言", "pricing": "價格", "faq": "常見問題", "support": "支援" },
+  "footer": {
+    "home": "首頁", "pricing": "價格", "languages": "語言", "faq": "常見問題", "support": "支援",
+    "guides": "使用指南", "changelog": "新功能", "press": "媒體資料",
+    "terms": "條款", "refunds": "退款政策", "privacy": "隱私權政策",
+    "languageLabel": "語言", "englishOnly": "英文"
+  },
+  "cta": {
+    "download": "下載 Mac 版",
+    "pricing": "一次付費 14.99 歐元 · 價格",
+    "note": "免費下載：前 30 封翻譯的郵件免費，之後一次性購買。需要 macOS 26 或以上版本。即將在 Mac App Store 推出。",
+    "appStoreAlt": "從 Mac App Store 下載",
+    "bandTitle": "下一封外文郵件，用你的語言閱讀",
+    "bandText": "下載 Mailkin，在「郵件」中開啟它，然後打開一封郵件。前 30 封翻譯的郵件免費。"
+  },
+  "facts": {
+    "title": "Mailkin 一覽",
+    "rows": [
+      ["是什麼", "一款為 Apple Mail 加入自動翻譯功能的 Mac App。其他語言的郵件在打開時就會以你的語言顯示。"],
+      ["如何翻譯", "使用 Apple 內建的翻譯功能，在你的 Mac 上完成。你的郵件不會被傳送到任何地方。"],
+      ["語言", "25 種語言，包括中文、法文、德文、日文、韓文、葡萄牙文、俄文和西班牙文。"],
+      ["價格", "前 30 封翻譯的郵件免費，之後一次性購買 14.99 歐元 / 14.99 美元。不需訂閱。"],
+      ["系統需求", "執行 macOS 26 或以上版本並使用 Apple Mail 的 Mac。不需要帳號，也不需要註冊。"]
+    ]
+  },
+  "breadcrumbHome": "首頁",
+  "lastUpdated": "最後更新",
+
+  "home": {
+    "title": "Mailkin：Mac 郵件翻譯工具",
+    "description": "Mailkin 在 Mac 的「郵件」中直接翻譯外文郵件，在裝置上完成，保護隱私。前 30 封翻譯的郵件免費。",
+    "h1": "每一封郵件，都用你的語言閱讀",
+    "lead": "Mailkin 直接在 Mac 上的「郵件」中翻譯以其他語言寫成的郵件。打開一封德文、日文或西班牙文郵件，就能在原處以你的語言閱讀。",
+    "iconAlt": "Mailkin App 圖像",
+    "shotTranslatedAlt": "「郵件」中一封德文郵件被翻譯成英文，橫幅顯示「譯自德文」",
+    "shotOptionsAlt": "「郵件」中的 Mailkin 選項：顯示原文，以及針對此郵件和此寄件人的設定",
+    "cards": [
+      ["自動翻譯", "你所選語言的郵件會在打開時自動翻譯。已經是你的語言的郵件不會被更動。"],
+      ["一鍵回到原文", "按一下「顯示原文」即可恢復原文。也可以將某封郵件或某位寄件人設為永遠翻譯或永不翻譯。"],
+      ["保護隱私", "翻譯使用 Apple 內建的翻譯功能，在你的 Mac 上完成。你的郵件不會被傳送到任何地方。"],
+      ["25 種語言", "包括中文、法文、德文、義大利文、日文、韓文、葡萄牙文、俄文和西班牙文。"],
+      ["一次買斷", "不需訂閱。一次購買即可在你的 Mac 上無限翻譯。<a href=\"{p}/buy/\">查看價格</a>。"],
+      ["信箱維持原樣", "Mailkin 只改變「郵件」顯示給你的內容，郵件本身絕不會被修改。"]
+    ],
+    "originalTitle": "原文只要按一下",
+    "howTitle": "運作方式",
+    "howSteps": [
+      "下載 Mailkin，選擇你想用來閱讀郵件的語言。",
+      "選擇你收到的郵件所使用的語言。macOS 會從 Apple 下載每種語言，只需一次。",
+      "在「郵件 › 設定 › 延伸功能」中開啟 Mailkin。之後，這些語言的郵件打開時就已翻譯好。"
+    ],
+    "howMore": "進一步了解<a href=\"{p}/translate-email-apple-mail/\">如何在 Apple Mail 中翻譯郵件</a>。",
+    "languagesTitle": "翻譯 25 種語言的郵件",
+    "languagesText": "Mailkin 會偵測你打開的每封郵件的語言。以下是最常見的幾種：",
+    "languagesAll": "全部 25 種語言",
+    "faqTitle": "常見問題",
+    "faqMore": "更多問題與解答"
+  },
+
+  "hub": {
+    "title": "Apple Mail 翻譯：自動翻譯郵件 | Mailkin",
+    "description": "Apple Mail 本身無法翻譯整封郵件。Mailkin 為 Mac 的「郵件」加入自動、在裝置上完成的翻譯，支援 25 種語言。",
+    "h1": "在 Mac 上的 Apple Mail 中翻譯郵件",
+    "answer": "Mac 上的 Apple Mail 本身無法翻譯一封郵件：你只能選取一段文字再選擇「翻譯」，一段一段來。Mailkin 為「郵件」加入了自動翻譯。其他語言的郵件一打開就以你的語言顯示，翻譯在你的 Mac 上完成。",
+    "builtinTitle": "Apple Mail 能翻譯郵件嗎？",
+    "builtinText": "無法自動翻譯。macOS 有一個「翻譯」指令：在郵件中選取文字，按住 Control 鍵並按一下，然後選擇「翻譯」。一個小視窗會顯示所選內容的譯文。每封郵件都要重複操作，郵件本身仍是原文，格式也不會保留。",
+    "stepsTitle": "如何自動翻譯每一封郵件",
+    "steps": [
+      "<a href=\"/download\" data-track=\"download\" data-placement=\"hub_steps\">下載 Mailkin</a>並打開。",
+      "選擇你想用來閱讀郵件的語言，例如中文。",
+      "選擇你收到的郵件所使用的語言。macOS 會從 Apple 下載每種語言，只需一次。",
+      "在「郵件」中打開<strong>郵件 › 設定 › 延伸功能</strong>，然後開啟 Mailkin。",
+      "打開一封這些語言的郵件。它會以譯文顯示，並有橫幅說明原文是哪種語言。"
+    ],
+    "stepsNote": "設定大約需要兩分鐘。Mailkin 中的「檢查設定」按鈕會確認每個步驟，也可以打開一封測試郵件。",
+    "lookTitle": "翻譯後的郵件長什麼樣子",
+    "lookText": "譯文會取代郵件檢視中的文字，並保留郵件的版面、連結和圖片。頂部的橫幅會說明郵件原本是哪種語言。按一下橫幅上的<strong>選項</strong>，即可顯示原文、更正偵測到的語言，或將此郵件或此寄件人設為永遠翻譯或永不翻譯。",
+    "privateTitle": "保護隱私：郵件不會離開你的 Mac",
+    "privateText": "Mailkin 使用 Apple 的裝置端翻譯，與「翻譯」App 採用相同的引擎。郵件內容不會被傳送給 Mailkin、Apple 或任何人，也不需要帳號。Mailkin 只改變「郵件」顯示的內容：信箱中的郵件與收到時完全相同。有簽署的郵件不會被更動。",
+    "accountsTitle": "支援「郵件」中的所有帳號",
+    "accountsText": "Mailkin 在「郵件」內運作，因此能翻譯你在其中加入的任何帳號的郵件：iCloud、Gmail、Outlook 和 Exchange、Yahoo，或任何其他 IMAP 帳號。",
+    "compareTitle": "內建翻譯還是 Mailkin？",
+    "compareHead": ["", "macOS 的「翻譯」指令", "Mailkin"],
+    "compareRows": [
+      ["打開郵件時自動翻譯", "否，每次都要選取文字", "是"],
+      ["整封郵件，保留格式", "否，彈出視窗顯示純文字", "是，在原處顯示"],
+      ["記住寄件人和語言", "否", "是"],
+      ["在你的 Mac 上執行", "是，需下載語言", "是，一律如此"],
+      ["價格", "免費", "前 30 封免費，之後一次性 14.99 歐元 / 14.99 美元"]
+    ],
+    "faq": [
+      ["Mailkin 能翻譯我寫的郵件嗎？", "目前還不行。Mailkin 翻譯你收到的郵件。你可以用自己的語言回覆，或對自己寫的文字使用「翻譯」指令。"],
+      ["可以離線使用嗎？", "可以。macOS 下載某種語言後，該語言的郵件不需連網即可翻譯。"],
+      ["我的郵件會被傳送到伺服器嗎？", "不會。翻譯使用 Apple 內建的翻譯功能，在你的 Mac 上完成。Mailkin 沒有任何能看到你郵件的伺服器。"],
+      ["Mailkin 會修改我的郵件嗎？", "不會。它只改變「郵件」顯示的內容。在「選項 › 顯示原文」中，按一下就能看到原文。"]
+    ]
+  },
+
+  "languages": {
+    "title": "Mailkin 支援的翻譯語言 | Mailkin",
+    "description": "Mailkin 在 Mac 的 Apple Mail 中翻譯 25 種語言的郵件。查看完整語言列表，以及語言的下載與偵測方式。",
+    "h1": "25 種語言，在「郵件」中翻譯",
+    "intro": "Mailkin 使用 Apple 內建的翻譯功能，因此支援 macOS 能在 Mac 上翻譯的語言。以下任一語言的郵件，都能顯示為其他任一語言：",
+    "downloadTitle": "語言只需下載一次",
+    "downloadText": "在 Mailkin 中選擇一種語言後，macOS 會從 Apple 下載它，只需一次。之後，該語言的郵件就在你的 Mac 上翻譯，離線也可以。",
+    "detectTitle": "自動偵測每封郵件的語言",
+    "detectText": "Mailkin 會辨識你打開的每封郵件的語言。如果辨識錯誤，可在郵件橫幅的「選項」中選擇正確的語言。",
+    "choiceTitle": "翻譯什麼，由你決定",
+    "choiceText": "你可以為每種語言選擇由 Mailkin 自動翻譯、按需翻譯或永不翻譯。已經是你的語言的郵件絕不會被更動。",
+    "pagesTitle": "各語言指南"
+  },
+
+  "langPage": {
+    "title": "在 Mac 郵件中翻譯{Lang}郵件 | Mailkin",
+    "description": "在 Apple Mail 中直接以{target}閱讀{lang}郵件。Mailkin 在 Mac 上自動、私密地翻譯。前 30 封免費。",
+    "h1": "在 Apple Mail 中翻譯{lang}郵件",
+    "intro": "在 Mac 上的「郵件」中打開{lang}郵件，Mailkin 會立即以{target}顯示。譯文顯示在原文的位置，保留郵件的版面，並完全在你的 Mac 上產生。",
+    "exampleTitle": "範例：一封{lang}郵件",
+    "originalLabel": "{lang}原文",
+    "translatedLabel": "使用 Mailkin 後你在「郵件」中看到的內容",
+    "exampleNote": "由 Apple 裝置端引擎進行機器翻譯。按一下「顯示原文」即可恢復原文。",
+    "noteTitle": "關於{lang}郵件",
+    "setupTitle": "如何設定",
+    "steps": [
+      "<a href=\"/download\" data-track=\"download\" data-placement=\"language_page\">下載 Mailkin</a>，將{target}設為你閱讀郵件的語言。",
+      "在 Mailkin 的「語言」標籤頁中開啟{lang}。macOS 會從 Apple 下載它，只需一次。",
+      "在<strong>郵件 › 設定 › 延伸功能</strong>中開啟 Mailkin。",
+      "打開一封{lang}郵件。它會以{target}顯示，並有橫幅說明已經過翻譯。"
+    ],
+    "faqTitle": "常見問題",
+    "faq": [
+      ["{lang}郵件會被傳送到網路上翻譯嗎？", "不會。Mailkin 使用 Apple 的裝置端翻譯。macOS 從 Apple 下載一次{lang}，之後{lang}郵件就在你的 Mac 上翻譯，不會被傳送到任何地方。"],
+      ["如果 Mailkin 偵測錯語言怎麼辦？", "按一下郵件橫幅上的「選項」，在「語言」下選擇正確的語言。Mailkin 會重新翻譯這封郵件。"],
+      ["可以讓部分郵件保留{lang}嗎？", "可以。將某位寄件人或某封郵件設為「不翻譯」，或將{lang}設為只在你需要時才翻譯。"]
+    ],
+    "otherTitle": "其他語言"
+  },
+
+  "buy": {
+    "title": "Mailkin 價格",
+    "description": "Mailkin 一次付費 14.99 歐元 / 14.99 美元，不需訂閱。前 30 封翻譯的郵件免費。",
+    "h1": "一次付費，翻譯每一封郵件。",
+    "lead": "Mailkin Translator Lifetime 可在你 Mac 上的「郵件」中解鎖無限翻譯。不需訂閱，不需帳號。",
+    "per": "一次性購買。價格已含適用的加值稅或銷售稅。",
+    "waiting": "線上結帳即將開放",
+    "tryFirst": "先試用：<a href=\"/download\" data-track=\"download\" data-placement=\"buy_try_first\">下載 Mailkin</a>，前 30 封翻譯的郵件免費。",
+    "cards": [
+      ["你會得到", "Mailkin Translator Lifetime 的授權碼，購買後立即以電子郵件寄給你。將它貼到 Mailkin 中即可解鎖無限翻譯。"],
+      ["無限翻譯", "你所選語言的每封郵件都會在「郵件」中翻譯，沒有每月上限。"],
+      ["你的所有 Mac", "你的授權可在你本人使用的每台 Mac 上使用。"],
+      ["包含更新", "包含 Mailkin 1 的所有更新，直接在 App 內取得。"],
+      ["保護隱私", "翻譯在你的 Mac 上完成。你的郵件不會被傳送到任何地方。"],
+      ["14 天退款", "不滿意？購買後 14 天內可獲得全額退款。請參閱<a href=\"/refunds/\">退款政策</a>。"]
+    ],
+    "waysTitle": "兩種購買方式",
+    "wayWeb": "<strong>透過本網站</strong>：從 mailkin.app 下載 Mailkin，並以授權碼解鎖。我們的訂購流程由線上經銷商 Paddle.com 處理，Paddle.com 為這些訂單的登記賣方（Merchant of Record）。",
+    "wayStore": "<strong>透過 Mac App Store</strong>（即將推出）：在 App Store 版本內購買 Mailkin Translator Lifetime。該筆付款由 Apple 處理，並可透過「家人共享」分享。",
+    "smallKeys": "授權碼用於解鎖從 mailkin.app 下載的版本；App Store 購買用於解鎖 App Store 版本。兩者之間的購買無法互相轉移。",
+    "smallTerms": "需要 macOS 26 或以上版本。購買即表示你同意<a href=\"/terms/\">條款</a>和<a href=\"/refunds/\">退款政策</a>。如有疑問：<a href=\"mailto:macapps.support@icloud.com\">macapps.support@icloud.com</a>。",
+    "js": {
+      "buy": "購買 Mailkin",
+      "sandbox": "沙盒模式：僅限測試購買。請使用卡號 4242 4242 4242 4242。",
+      "thanks": "謝謝！你的授權碼正在寄送{to}，通常一分鐘內就會送達。如果沒有看到，請檢查垃圾郵件資料夾。",
+      "thanksTo": "至 {email}",
+      "done": "購買完成"
+    }
+  },
+
+  "support": {
+    "title": "Mailkin 支援",
+    "description": "Mac 郵件翻譯工具 Mailkin 的說明：設定、翻譯問題、購買與聯絡方式。",
+    "h1": "支援",
+    "intro": "有問題、遇到狀況或有想法？請寄信至 <a href=\"mailto:macapps.support@icloud.com\">macapps.support@icloud.com</a>。郵件會直接送到開發者手上。",
+    "sections": [
+      ["設定", "<p><a href=\"/download\" data-track=\"download\" data-placement=\"support_setup\">下載 Mailkin</a>，打開磁碟映像檔，將 Mailkin 拖到「應用程式」檔案夾。接著打開 Mailkin 並依照設定流程操作，大約需要兩分鐘：</p><ol><li>選擇你希望郵件翻譯成的語言。</li><li>選擇你收到的郵件所使用的語言。macOS 會從 Apple 下載每種語言，只需一次。</li><li>在「郵件」中打開<strong>郵件 › 設定 › 延伸功能</strong>，然後開啟 Mailkin。</li></ol>"],
+      ["某封郵件沒有被翻譯", "<ul><li><strong>確認該語言已開啟。</strong>Mailkin 只翻譯在其「語言」標籤頁中開啟的語言，而且要等語言下載完成後才會翻譯。</li><li><strong>很長的郵件</strong>（超過 20,000 個字元，例如大型電子報）不會自動翻譯。按一下郵件橫幅上的<strong>選項</strong>，再按一下<strong>翻譯此郵件</strong>。</li><li><strong>偵測到的語言有誤？</strong>在同一個「選項」中的<strong>語言</strong>下選擇正確的語言。</li><li><strong>執行「檢查設定」。</strong>打開 Mailkin，按一下右上角的聽診器按鈕。它會檢查每個步驟，也可以在「郵件」中打開一封測試郵件，確認翻譯正常運作。</li></ul>"],
+      ["顯示原文", "<p>按一下已翻譯郵件上方橫幅中的<strong>選項</strong>，再按一下<strong>顯示原文</strong>。你也可以將某封郵件或某位寄件人設為<strong>永遠翻譯</strong>或<strong>不翻譯</strong>。</p>"],
+      ["語言", "<p>Mailkin 使用 Apple 內建的翻譯功能，支援 25 種語言。請查看<a href=\"{p}/languages/\">完整語言列表</a>。</p>"],
+      ["免費翻譯與購買", "<p>前 30 封翻譯的郵件免費。之後，一次性購買 <strong>Mailkin Translator Lifetime</strong> 即可解鎖無限翻譯，不需訂閱。先前已翻譯的郵件會維持翻譯狀態。請參閱<a href=\"{p}/buy/\">價格</a>。</p>"],
+      ["授權碼（在 mailkin.app 購買）", "<ul><li><strong>解鎖：</strong>打開 Mailkin，按一下<strong>解鎖</strong>，貼上購買郵件中的授權碼，然後按一下<strong>啟用</strong>。請貼上完整的授權碼，以 <code>MK1-</code> 開頭。</li><li><strong>其他 Mac：</strong>在你本人使用的每台 Mac 上輸入同一組授權碼。</li><li><strong>授權碼遺失？</strong>用你購買時使用的電子郵件地址寄信給我們，我們會重新寄送。</li><li><strong>退款</strong>（14 天內）：請參閱<a href=\"/refunds/\">退款政策</a>。</li></ul>"],
+      ["App Store 購買", "<p>在另一台 Mac 上購買過，或透過「家人共享」取得？打開 Mailkin，按一下<strong>解鎖</strong>，再按一下<strong>回復購買項目</strong>。</p><p>如需退款，請前往 <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>，因為 App Store 的付款由 Apple 處理。</p>"],
+      ["移除 Mailkin", "<p>在<strong>郵件 › 設定 › 延伸功能</strong>中關閉 Mailkin，然後將 Mailkin 移到垃圾桶。你的郵件不受影響：Mailkin 從不修改信箱中的郵件。</p>"]
+    ],
+    "faqLink": "想了解一般問題？請查看<a href=\"{p}/faq/\">常見問題</a>。"
+  },
+
+  "faq": {
+    "title": "Mailkin 常見問題：Apple Mail 翻譯",
+    "description": "關於 Mac 郵件翻譯 App Mailkin 的解答：隱私、語言、離線使用、帳號、價格與系統需求。",
+    "h1": "問題與解答",
+    "items": [
+      ["Mailkin 是什麼？", "Mailkin 是一款為 Apple Mail 加入自動翻譯功能的 Mac App。當你打開一封其他語言的郵件時，Mailkin 會在原處以你的語言顯示，按一下就能回到原文。"],
+      ["Apple Mail 自己能翻譯郵件嗎？", "只能一段一段翻譯。在 Mac 上的「郵件」中，你可以選取文字，按住 Control 鍵並按一下，然後選擇「翻譯」，一個小視窗會顯示所選內容的譯文。Mailkin 則會在你打開郵件時自動翻譯整封郵件，並保留其格式。"],
+      ["我的郵件會被傳送到別處翻譯嗎？", "不會。Mailkin 使用 Apple 內建的翻譯功能，在你的 Mac 上執行。你的郵件不會被傳送給 Mailkin、Apple 或任何翻譯服務，也不需要帳號。"],
+      ["Mailkin 能翻譯哪些語言？", "25 種語言：阿拉伯文、波蘭文、丹麥文、德文、俄文、法文、芬蘭文、韓文、荷蘭文、葡萄牙文、挪威文、日文、瑞典文、泰文、土耳其文、烏克蘭文、西班牙文、希伯來文、義大利文、印地文、印尼文、英文、越南文、中文和馬來文。請查看<a href=\"{p}/languages/\">所有語言</a>。"],
+      ["可以離線使用嗎？", "可以。macOS 會從 Apple 下載你選擇的每種語言，只需一次。之後不需連網即可翻譯。"],
+      ["Mailkin 會修改我信箱中的郵件嗎？", "不會。它只改變「郵件」顯示的內容。郵件與收到時完全相同，按一下「顯示原文」即可恢復原文。"],
+      ["支援 Gmail、Outlook 或 iCloud 嗎？", "支援，只要你在 Mac 上的 Apple Mail 中閱讀該帳號的郵件。Mailkin 能翻譯「郵件」中加入的任何帳號的郵件。"],
+      ["Mailkin 能翻譯我寫的或回覆的郵件嗎？", "目前還不行。Mailkin 翻譯你收到的郵件。"],
+      ["可以讓某些郵件或寄件人不再翻譯嗎？", "可以。在郵件橫幅的「選項」中，可將該郵件或寄件人設為永遠翻譯或永不翻譯；也可以為每種語言選擇由 Mailkin 自動翻譯、按需翻譯或永不翻譯。"],
+      ["Mailkin 多少錢？", "前 30 封翻譯的郵件免費。之後，一次性購買 14.99 歐元 / 14.99 美元即可解鎖無限翻譯，不需訂閱。請參閱<a href=\"{p}/buy/\">價格</a>。"],
+      ["使用它需要什麼？", "一台執行 macOS 26 或以上版本的 Mac 和 Apple Mail。Mailkin 無法在 iPhone 或 iPad 上執行。"],
+      ["哪裡可以取得 Mailkin？", "從 mailkin.app 下載。即將在 Mac App Store 推出。"],
+      ["如何退款？", "在 mailkin.app 購買的，可在 14 天內獲得全額退款；請參閱<a href=\"/refunds/\">退款政策</a>。App Store 購買由 Apple 負責退款。"]
+    ]
+  },
+
+  "notFound": {
+    "title": "找不到網頁 | Mailkin",
+    "h1": "找不到網頁",
+    "text": "此網頁不存在。請前往<a href=\"{p}/\">首頁</a>或<a href=\"{p}/support/\">支援</a>頁面。"
+  }
+}

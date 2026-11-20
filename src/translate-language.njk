@@ -1,0 +1,81 @@
+---js
+const pagination = { data: "pageList", size: 1, alias: "locale", addAllPagesToCollections: true };
+const schema = ["app", "faq"];
+const placement = "language_page";
+const updated = "2026-11-20";
+const eleventyComputed = {
+    permalink: (d) => `${d.locale.prefix}/translate/${d.locale.source.slug}-email/`,
+    vars: (d) => ({
+      lang: d.site.langName(d.locale.source.code, d.locale.code),
+      target: d.site.langName(d.locale.lang, d.locale.code),
+    }),
+    sample: (d) => d.samples[d.locale.source.code],
+    tr: (d) => (d.sampleTr[d.locale.code] || {})[d.locale.source.code] || d.sampleTr.en[d.locale.source.code],
+    title: (d) => fill((d.i18n[d.locale.code] || d.i18n.en).langPage.title, d),
+    description: (d) => fill((d.i18n[d.locale.code] || d.i18n.en).langPage.description, d),
+    faqItems: (d) => (d.i18n[d.locale.code] || d.i18n.en).langPage.faq.map(([q, a]) => [fill(q, d), fill(a, d)]),
+    crumbs: (d) => [{ name: (d.i18n[d.locale.code] || d.i18n.en).nav.languages, url: `${d.locale.prefix}/languages/` }, { name: capFirst(d.site.langName(d.locale.source.code, d.locale.code), d.locale.intl) }],
+    others: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang && f.code !== d.locale.source.code),
+};
+function capFirst(s, intl) { return s.charAt(0).toLocaleUpperCase(intl) + s.slice(1); }
+function fill(str, d) {
+  const lang = d.site.langName(d.locale.source.code, d.locale.code);
+  const target = d.site.langName(d.locale.lang, d.locale.code);
+  return str.replace(/\{Lang\}/g, capFirst(lang, d.locale.intl)).replace(/\{lang\}/g, lang).replace(/\{target\}/g, target).replace(/\{p\}/g, d.locale.prefix);
+}
+---
+<article class="doc">
+  <h1>{{ t.langPage.h1 | fmt(v) }}</h1>
+  <p class="answer">{{ t.langPage.intro | fmt(v) }}</p>
+  <div class="ctas left">
+    <a class="cta" href="/download" data-track="download" data-placement="language_top">{{ t.cta.download }}</a>
+    <a class="cta secondary" href="{{ locale.prefix }}/buy/" data-track="pricing" data-placement="language_top">{{ t.cta.pricing }}</a>
+  </div>
+
+  <h2>{{ t.langPage.exampleTitle | fmt(v) }}</h2>
+  <div class="mails">
+    <div class="mail" lang="{{ locale.source.code }}">
+      <p class="label">{{ t.langPage.originalLabel | fmt(v) }}</p>
+      <p class="from">{{ sample.from }}</p>
+      <p class="subject">{{ sample.original.subject }}</p>
+      {%- for para in sample.original.body %}
+      <p>{{ para | escape | replace("\n", "<br>") | safe }}</p>
+      {%- endfor %}
+    </div>
+    <div class="mail translated" lang="{{ locale.hreflang }}">
+      <p class="label">{{ t.langPage.translatedLabel | fmt(v) }}</p>
+      <p class="from">{{ sample.from }}</p>
+      <p class="subject">{{ tr.subject }}</p>
+      {%- for para in tr.body %}
+      <p>{{ para | escape | replace("\n", "<br>") | safe }}</p>
+      {%- endfor %}
+    </div>
+  </div>
+  <p class="small">{{ t.langPage.exampleNote }}</p>
+
+  <h2>{{ t.langPage.noteTitle | fmt(v) }}</h2>
+  <p>{{ tr.note }}</p>
+
+  <h2>{{ t.langPage.setupTitle }}</h2>
+  <ol>
+    {%- for s in t.langPage.steps %}
+    <li>{{ s | fmt(v) | safe }}</li>
+    {%- endfor %}
+  </ol>
+  <p>{{ t.home.howMore | fmt(v) | safe }}</p>
+
+  <h2>{{ t.langPage.faqTitle }}</h2>
+  {% include "faq.njk" %}
+
+  <h2>{{ t.langPage.otherTitle }}</h2>
+  <ul class="lang-grid left">
+    {%- for f in others %}
+    <li><a href="{{ locale.prefix }}/translate/{{ f.slug }}-email/">{{ f.code | langName(locale.code) | cap(locale.intl) }}</a></li>
+    {%- endfor %}
+    <li><a href="{{ locale.prefix }}/languages/"><strong>{{ t.home.languagesAll }}</strong></a></li>
+  </ul>
+  <p class="updated">{{ t.lastUpdated }}: {{ updated | localDate(locale.code) }}</p>
+</article>
+
+{% include "facts.njk" %}
+{% include "band.njk" %}

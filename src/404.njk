@@ -1,0 +1,18 @@
+---
+permalink: /404.html
+noindex: true
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ t.notFound.title }}"
+  description: "{{ t.oneLiner }}"
+---
+<article class="doc">
+  <h1>{{ t.notFound.h1 }}</h1>
+  <p>{{ t.notFound.text | fmt(v) | safe }}</p>
+  <ul>
+    <li><a href="/translate-email-apple-mail/">{{ t.hub.h1 }}</a></li>
+    <li><a href="/languages/">{{ t.languages.h1 }}</a></li>
+    <li><a href="/faq/">{{ t.faq.h1 }}</a></li>
+    <li><a href="/guides/">Guides</a></li>
+  </ul>
+</article>

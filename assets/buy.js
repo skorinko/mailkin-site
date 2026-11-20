@@ -5,7 +5,7 @@
 (function () {
   // Live is ready but off: Paddle answers transaction_checkout_not_enabled until it approves
   // the account. Then fill LIVE with token "live_3a65ae1bd0680dd040109a77e9b" and
-  // price "pri_01m7j46bf27ea972j30s565193", and bump ?v= in /buy/index.html.
+  // price "pri_01m7j46bf27ea972j30s565193", and bump ?v= in src/buy.njk.
   var LIVE = { token: "", priceId: "" };
   var SANDBOX = { token: "test_c7d371fa18d912ce29e467dcd44", priceId: "pri_01m7gc7g25szscny07zt1n5cvf" };
 
@@ -17,30 +17,38 @@
   var button = document.getElementById("buy-button");
   var status = document.getElementById("buy-status");
   if (!button || !config.token || !window.Paddle) return;
+  // Localized pages put their strings on the button (src/buy.njk); English is the fallback.
+  var d = button.dataset;
+  var text = {
+    buy: d.labelBuy || "Buy Mailkin",
+    done: d.labelDone || "Purchase complete",
+    sandbox: d.msgSandbox || "Sandbox mode: test purchases only. Use card 4242 4242 4242 4242.",
+    thanks: d.msgThanks || "Thank you! Your license key is on its way{to}. It usually arrives within a minute. Check your spam folder if you don't see it.",
+    thanksTo: d.msgThanksTo || " to {email}"
+  };
 
   if (sandbox) {
     Paddle.Environment.set("sandbox");
-    status.textContent = "Sandbox mode: test purchases only. Use card 4242 4242 4242 4242.";
+    status.textContent = text.sandbox;
   }
 
   Paddle.Initialize({
     token: config.token,
-    checkout: { settings: { displayMode: "overlay", theme: "light", locale: "en", allowLogout: false } },
+    checkout: { settings: { displayMode: "overlay", theme: "light", locale: d.paddleLocale || "en", allowLogout: false } },
     eventCallback: function (event) {
       if (window.posthog && (event.name === "checkout.loaded" || event.name === "checkout.completed")) {
         posthog.capture(event.name === "checkout.loaded" ? "checkout_opened" : "checkout_completed", { sandbox: sandbox });
       }
       if (event.name === "checkout.completed") {
         var email = event.data && event.data.customer && event.data.customer.email;
-        status.textContent = "Thank you! Your license key is on its way" + (email ? " to " + email : "") +
-          ". It usually arrives within a minute. Check your spam folder if you don't see it.";
-        button.textContent = "Purchase complete";
+        status.textContent = text.thanks.replace("{to}", email ? text.thanksTo.replace("{email}", email) : "");
+        button.textContent = text.done;
         button.setAttribute("aria-disabled", "true");
       }
     }
   });
 
-  button.textContent = "Buy Mailkin";
+  button.textContent = text.buy;
   button.classList.remove("waiting");
   button.removeAttribute("aria-disabled");
   button.addEventListener("click", function (e) {

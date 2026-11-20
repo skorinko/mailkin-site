@@ -1,0 +1,15 @@
+---
+title: "Mailkin Compared: Email Translation on Mac | Mailkin"
+description: "How Mailkin compares with other ways to translate email on a Mac: the macOS Translate command, Mate Translate and more."
+schema: []
+layout: base.njk
+---
+<article class="doc">
+  <h1>Comparisons</h1>
+  <p class="answer">Honest comparisons between Mailkin and other ways to read email in another language on a Mac, including when another option suits you better.</p>
+  <div class="cards-links">
+    {%- for g in collections.compare %}{% if g.data.short %}
+    <a href="{{ g.url }}"><strong>{{ g.data.h1 or g.data.title }}</strong><span>{{ g.data.description }}</span></a>
+    {%- endif %}{% endfor %}
+  </div>
+</article>

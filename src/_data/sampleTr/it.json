@@ -1,0 +1,82 @@
+{
+  "de": {
+    "subject": "Manutenzione del riscaldamento il 3 dicembre",
+    "body": [
+      "Gentili inquilini,",
+      "mercoledì 3 dicembre, tra le 8 e le 12, verrà eseguita la manutenzione dell’impianto di riscaldamento. In questo intervallo non sarà disponibile l’acqua calda.",
+      "Vi preghiamo di assicurarvi che il locale caldaia sia accessibile. Grazie per la comprensione.",
+      "Cordiali saluti\nL’amministrazione condominiale"
+    ],
+    "note": "Le email in tedesco sono spesso formali, con il Sie di cortesia e formule fisse come «Mit freundlichen Grüßen» (cordiali saluti). Le lettere di proprietari di casa, enti pubblici e assicurazioni usano spesso lunghe parole composte, che la traduzione di Apple scompone in un italiano scorrevole."
+  },
+  "fr": {
+    "subject": "Ritardo nella consegna dell’ordine n. 4812",
+    "body": [
+      "Buongiorno,",
+      "la informiamo che il suo ordine n. 4812 verrà spedito con una settimana di ritardo, a causa di una mancanza di scorte presso il nostro fornitore.",
+      "Ci scusiamo per l’inconveniente. Non esiti a contattarci se desidera modificare o annullare l’ordine.",
+      "Cordiali saluti,\nIl team di Atelier Lumière"
+    ],
+    "note": "Le email commerciali in francese prediligono formule di cortesia come «Nous vous prions de» e «Cordialement». Mailkin ne conserva il significato e le rende con le espressioni semplici che ti aspetteresti nella tua lingua."
+  },
+  "es": {
+    "subject": "Conferma della sua prenotazione",
+    "body": [
+      "Gentile cliente,",
+      "le confermiamo la prenotazione di una camera doppia dal 14 al 17 marzo. Il check-in è a partire dalle 15:00 e il check-out entro le 11:00.",
+      "Se ha bisogno di un transfer dall’aeroporto, risponda a questa email e lo organizzeremo.",
+      "Cordiali saluti,\nLa reception"
+    ],
+    "note": "Le email in spagnolo arrivano dalla Spagna e da gran parte dell’America Latina, con piccole differenze di vocabolario. La traduzione di Apple gestisce entrambe le varianti, quindi una prenotazione da Madrid e una fattura da Città del Messico si leggono altrettanto bene."
+  },
+  "ja": {
+    "subject": "Proposta di date per un incontro",
+    "body": [
+      "Grazie come sempre per la sua collaborazione.",
+      "Potremmo avere un po’ del suo tempo la prossima settimana per un incontro sul nuovo prodotto? La preghiamo di indicarci l’orario che preferisce martedì o giovedì pomeriggio.",
+      "So che è molto impegnato e la ringrazio sin d’ora per la disponibilità.",
+      "Tanaka"
+    ],
+    "note": "Le email di lavoro in giapponese si aprono e si chiudono con formule di cortesia fisse come お世話になっております e よろしくお願いいたします. La traduzione di Apple le trasforma in saluti naturali invece che in un testo parola per parola, così la richiesta vera e propria risalta."
+  },
+  "zh": {
+    "subject": "Risposta alla sua richiesta di preventivo",
+    "body": [
+      "Buongiorno,",
+      "grazie per la sua richiesta. Il prezzo unitario per 5000 pezzi è di 2,35 US$ al pezzo, imballaggio incluso, con consegna 25 giorni dopo la conferma dell’ordine.",
+      "Se le servono dei campioni, possiamo spedirli entro tre giorni lavorativi. Restiamo in attesa di collaborare con lei.",
+      "Distinti saluti,\nIl responsabile Li"
+    ],
+    "note": "Mailkin traduce le email in cinese scritte in caratteri semplificati o tradizionali, frequenti con fornitori, fabbriche e partner della Cina continentale, di Taiwan e di Hong Kong. Prezzi, quantità e date restano invariati."
+  },
+  "pt": {
+    "subject": "Feedback sulla prima versione del sito",
+    "body": [
+      "Ciao, come va?",
+      "Abbiamo visto la prima versione del sito e il layout ci piace molto. Ti chiediamo solo di cambiare le foto della home page e di accorciare il modulo di contatto.",
+      "Riusciamo ad avere la nuova versione entro venerdì?",
+      "Un abbraccio,\nMariana"
+    ],
+    "note": "Le email in portoghese dal Brasile e dal Portogallo differiscono per tono e vocabolario. Quelle brasiliane sono spesso informali e si aprono con «Olá, tudo bem?», mentre quelle dal Portogallo tendono a essere più formali. Mailkin le traduce entrambe."
+  },
+  "ru": {
+    "subject": "Conferma della partecipazione alla conferenza",
+    "body": [
+      "Buongiorno,",
+      "la ringraziamo per essersi registrato alla conferenza TechnoForum, che si terrà il 22 e 23 aprile. Il suo intervento è stato inserito nel programma della seconda giornata.",
+      "La preghiamo di confermare la sua partecipazione entro il 1° aprile rispondendo a questa email.",
+      "Cordiali saluti,\nIl comitato organizzatore"
+    ],
+    "note": "Mailkin legge le email in russo scritte in alfabeto cirillico e le riconosce in automatico, anche quando l’oggetto è in inglese. Le chiusure formali come «С уважением» (con rispetto) diventano i saluti abituali nella tua lingua."
+  },
+  "en": {
+    "subject": "Colloqui con i genitori la prossima settimana",
+    "body": [
+      "Gentili genitori,",
+      "i colloqui con gli insegnanti si terranno martedì e mercoledì prossimi dalle 16 alle 19. Vi chiediamo di prenotare entro venerdì un appuntamento di 15 minuti con l’insegnante di classe di vostro figlio tramite il link qui sotto.",
+      "Se nessuno degli orari vi è comodo, fatecelo sapere e organizzeremo una videochiamata.",
+      "Cordiali saluti,\nLa segreteria della scuola"
+    ],
+    "note": "L’inglese è la lingua di molte email che arrivano da aziende internazionali, scuole internazionali e servizi software. Mailkin le traduce in italiano appena le apri, e Mostra originale riporta il testo inglese quando ti serve."
+  }
+}

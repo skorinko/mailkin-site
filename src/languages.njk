@@ -1,0 +1,48 @@
+---js
+{
+  pagination: { data: "site.locales", size: 1, alias: "locale", addAllPagesToCollections: true },
+  pageKey: "languages",
+  schema: ["app"],
+  placement: "languages",
+  eleventyComputed: {
+    permalink: (d) => `${d.locale.prefix}/languages/`,
+    title: (d) => (d.i18n[d.locale.code] || d.i18n.en).languages.title,
+    description: (d) => (d.i18n[d.locale.code] || d.i18n.en).languages.description,
+    crumbs: (d) => [{ name: (d.i18n[d.locale.code] || d.i18n.en).nav.languages }],
+    featuredHere: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang),
+    // All 25 languages, sorted by their name in this locale, with a link where a page exists.
+    allLangs: (d) => d.site.languages
+      .map((code) => {
+        const f = d.site.featured.find((x) => x.code === code && x.code !== d.locale.lang);
+        return { code, name: d.site.langName(code, d.locale.code), url: f ? `${d.locale.prefix}/translate/${f.slug}-email/` : null };
+      })
+      .sort((a, b) => a.name.localeCompare(b.name, d.locale.intl)),
+  },
+}
+---
+<article class="doc">
+  <h1>{{ t.languages.h1 }}</h1>
+  <p class="answer">{{ t.languages.intro }}</p>
+  <ul class="lang-grid left all">
+    {%- for l in allLangs %}
+    <li lang="{{ l.code }}">{% if l.url %}<a href="{{ l.url }}">{{ l.name | cap(locale.intl) }}</a>{% else %}{{ l.name | cap(locale.intl) }}{% endif %}</li>
+    {%- endfor %}
+  </ul>
+
+  <h2>{{ t.languages.downloadTitle }}</h2>
+  <p>{{ t.languages.downloadText }}</p>
+  <h2>{{ t.languages.detectTitle }}</h2>
+  <p>{{ t.languages.detectText }}</p>
+  <h2>{{ t.languages.choiceTitle }}</h2>
+  <p>{{ t.languages.choiceText }}</p>
+
+  <h2>{{ t.languages.pagesTitle }}</h2>
+  <ul>
+    {%- for f in featuredHere %}
+    {%- set lv = { lang: f.code | langName(locale.code), target: locale.lang | langName(locale.code), _locale: locale.intl, p: locale.prefix } %}
+    <li><a href="{{ locale.prefix }}/translate/{{ f.slug }}-email/">{{ t.langPage.h1 | fmt(lv) }}</a></li>
+    {%- endfor %}
+  </ul>
+</article>
+
+{% include "band.njk" %}

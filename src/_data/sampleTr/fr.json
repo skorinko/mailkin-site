@@ -1,0 +1,82 @@
+{
+  "de": {
+    "subject": "Entretien du chauffage le 3 décembre",
+    "body": [
+      "Madame, Monsieur,",
+      "Le mercredi 3 décembre, la chaufferie fera l’objet d’un entretien entre 8 h et 12 h. Il n’y aura pas d’eau chaude pendant ce temps.",
+      "Merci de veiller à ce que la chaufferie soit accessible. Nous vous remercions de votre compréhension.",
+      "Cordialement,\nVotre gestionnaire immobilier"
+    ],
+    "note": "Les e-mails allemands sont souvent formels, avec le vouvoiement (Sie) et des formules toutes faites comme « Mit freundlichen Grüßen » (cordialement). Les courriers des propriétaires, administrations et assureurs regorgent de longs mots composés, que la traduction d’Apple décompose en un français lisible."
+  },
+  "es": {
+    "subject": "Confirmation de votre réservation",
+    "body": [
+      "Madame, Monsieur,",
+      "Nous vous confirmons votre réservation d’une chambre double du 14 au 17 mars. L’arrivée se fait à partir de 15 h et le départ avant 11 h.",
+      "Si vous avez besoin d’un transfert depuis l’aéroport, répondez à cet e-mail et nous l’organiserons.",
+      "Bien cordialement,\nLa réception"
+    ],
+    "note": "Les e-mails en espagnol viennent d’Espagne et d’une grande partie de l’Amérique latine, avec de petites différences de vocabulaire. La traduction d’Apple gère les deux : une réservation à Madrid et une facture de Mexico se lisent aussi bien l’une que l’autre."
+  },
+  "it": {
+    "subject": "Documents pour la déclaration de revenus",
+    "body": [
+      "Madame, Monsieur,",
+      "Pour préparer votre déclaration de revenus, nous avons besoin des justificatifs de frais médicaux et du contrat de location avant le 30 avril.",
+      "Vous pouvez nous envoyer les documents en répondant à cet e-mail ou les déposer dans votre espace personnel.",
+      "Cordialement,\nStudio Rinaldi"
+    ],
+    "note": "Les e-mails italiens des cabinets, écoles et administrations emploient le Lei de politesse et des formules comme « Gentile cliente » et « Cordiali saluti ». Mailkin traduit le message entier, objet et dates compris."
+  },
+  "ja": {
+    "subject": "Proposition de dates pour une réunion",
+    "body": [
+      "Merci pour votre collaboration toujours précieuse.",
+      "Pourriez-vous nous accorder un moment la semaine prochaine pour une réunion au sujet du nouveau produit ? Merci de nous indiquer un horaire qui vous convient le mardi ou le jeudi après-midi.",
+      "Je sais que vous êtes très occupé et vous remercie par avance de votre aide.",
+      "Tanaka"
+    ],
+    "note": "Les e-mails professionnels japonais s’ouvrent et se terminent par des formules de politesse figées comme お世話になっております et よろしくお願いいたします. La traduction d’Apple en fait des formules naturelles plutôt qu’un mot-à-mot, si bien que la demande elle-même ressort clairement."
+  },
+  "zh": {
+    "subject": "Réponse à votre demande de devis",
+    "body": [
+      "Bonjour,",
+      "Merci pour votre demande. Le prix unitaire pour 5 000 pièces est de 2,35 US$ par pièce, emballage compris, avec un délai de livraison de 25 jours après confirmation de la commande.",
+      "Si vous avez besoin d’échantillons, nous pouvons les envoyer sous trois jours ouvrés. Au plaisir de travailler avec vous.",
+      "Cordialement,\nM. Li, responsable"
+    ],
+    "note": "Mailkin traduit les e-mails chinois en caractères simplifiés ou traditionnels, fréquents chez les fournisseurs, usines et partenaires de Chine continentale, de Taïwan et de Hong Kong. Prix, quantités et dates sont conservés tels quels."
+  },
+  "pt": {
+    "subject": "Retour sur la première version du site",
+    "body": [
+      "Bonjour, ça va ?",
+      "Nous avons regardé la première version du site et la mise en page nous plaît beaucoup. Nous voudrions seulement changer les photos de la page d’accueil et raccourcir le formulaire de contact.",
+      "Serait-il possible d’avoir la nouvelle version d’ici vendredi ?",
+      "Bien à vous,\nMariana"
+    ],
+    "note": "Les e-mails en portugais du Brésil et du Portugal diffèrent par le ton et le vocabulaire. Les e-mails brésiliens sont souvent informels et commencent par « Olá, tudo bem? », tandis que ceux du Portugal sont généralement plus formels. Mailkin traduit les deux."
+  },
+  "ru": {
+    "subject": "Confirmation de votre participation à la conférence",
+    "body": [
+      "Bonjour,",
+      "Nous vous remercions de votre inscription à la conférence « TechnoForum », qui se tiendra les 22 et 23 avril. Votre intervention a été intégrée au programme de la deuxième journée.",
+      "Merci de confirmer votre participation avant le 1er avril en répondant à cet e-mail.",
+      "Cordialement,\nLe comité d’organisation"
+    ],
+    "note": "Mailkin lit les e-mails russes en alphabet cyrillique et les détecte automatiquement, même quand l’objet est en anglais. Les formules de clôture comme « С уважением » (respectueusement) deviennent la formule habituelle en français."
+  },
+  "en": {
+    "subject": "Réunions parents-professeurs la semaine prochaine",
+    "body": [
+      "Chers parents,",
+      "Les réunions parents-professeurs auront lieu mardi et mercredi prochains, de 16 h à 19 h. Merci de réserver d’ici vendredi un créneau de 15 minutes avec le professeur principal de votre enfant grâce au lien ci-dessous.",
+      "Si aucun horaire ne vous convient, faites-le-nous savoir et nous organiserons un appel vidéo.",
+      "Bien cordialement,\nLe secrétariat de l’école"
+    ],
+    "note": "Beaucoup d’e-mails en anglais arrivent d’entreprises internationales, d’éditeurs de logiciels, d’universités ou d’écoles internationales. Mailkin les affiche en français dès leur ouverture, et Afficher l’original permet de relire le texte anglais si besoin."
+  }
+}

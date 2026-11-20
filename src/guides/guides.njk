@@ -1,0 +1,22 @@
+---
+title: "Guides: Translating Email on Mac | Mailkin"
+description: "Step-by-step guides for reading and translating emails in other languages on your Mac, in Apple Mail and other mail apps."
+h1: Guides
+schema: []
+layout: base.njk
+---
+<article class="doc">
+  <h1>Guides</h1>
+  <p class="answer">Practical guides for reading email in other languages on your Mac: what Apple Mail can do on its own, how to translate automatically, and how to set things up.</p>
+  <div class="cards-links">
+    {%- for g in collections.guide | reverse %}{% if g.data.short %}
+    <a href="{{ g.url }}"><strong>{{ g.data.h1 or g.data.title }}</strong><span>{{ g.data.description }}</span></a>
+    {%- endif %}{% endfor %}
+  </div>
+  <h2>Comparisons</h2>
+  <div class="cards-links">
+    {%- for g in collections.compare %}{% if g.data.short %}
+    <a href="{{ g.url }}"><strong>{{ g.data.h1 or g.data.title }}</strong><span>{{ g.data.description }}</span></a>
+    {%- endif %}{% endfor %}
+  </div>
+</article>

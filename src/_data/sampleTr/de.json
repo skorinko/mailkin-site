@@ -1,0 +1,82 @@
+{
+  "fr": {
+    "subject": "Lieferverzögerung bei Ihrer Bestellung Nr. 4812",
+    "body": [
+      "Guten Tag,",
+      "wir möchten Sie darüber informieren, dass Ihre Bestellung Nr. 4812 wegen eines Lieferengpasses bei unserem Zulieferer mit einer Woche Verspätung versendet wird.",
+      "Bitte entschuldigen Sie diese Unannehmlichkeit. Melden Sie sich gern bei uns, wenn Sie Ihre Bestellung ändern oder stornieren möchten.",
+      "Mit freundlichen Grüßen\nIhr Team von Atelier Lumière"
+    ],
+    "note": "Französische Geschäfts-E-Mails setzen auf Höflichkeitsformeln wie „Nous vous prions de“ und „Cordialement“. Mailkin gibt ihren Sinn wieder und macht daraus die schlichten Formulierungen, die man auf Deutsch erwartet."
+  },
+  "es": {
+    "subject": "Bestätigung Ihrer Reservierung",
+    "body": [
+      "Sehr geehrter Gast,",
+      "wir bestätigen Ihre Reservierung eines Doppelzimmers vom 14. bis 17. März. Der Check-in ist ab 15:00 Uhr möglich, der Check-out bis 11:00 Uhr.",
+      "Wenn Sie einen Transfer vom Flughafen benötigen, antworten Sie auf diese E-Mail und wir organisieren ihn.",
+      "Freundliche Grüße\nRezeption"
+    ],
+    "note": "Spanische E-Mails kommen aus Spanien und weiten Teilen Lateinamerikas, mit kleinen Unterschieden im Wortschatz. Die Übersetzung von Apple kommt mit beidem zurecht, sodass eine Buchung aus Madrid und eine Rechnung aus Mexiko-Stadt gleich gut lesbar sind."
+  },
+  "it": {
+    "subject": "Unterlagen für die Steuererklärung",
+    "body": [
+      "Sehr geehrte Mandantin, sehr geehrter Mandant,",
+      "für die Erstellung Ihrer Steuererklärung benötigen wir bis zum 30. April die Belege über Ihre Krankheitskosten und den Mietvertrag.",
+      "Sie können uns die Unterlagen als Antwort auf diese E-Mail senden oder in Ihren persönlichen Bereich hochladen.",
+      "Mit freundlichen Grüßen\nStudio Rinaldi"
+    ],
+    "note": "Italienische E-Mails von Kanzleien, Schulen und Behörden verwenden das förmliche Lei und Wendungen wie „Gentile cliente“ und „Cordiali saluti“. Mailkin übersetzt die ganze Nachricht, auch Betreffzeilen und Datumsangaben."
+  },
+  "ja": {
+    "subject": "Terminabstimmung für eine Besprechung",
+    "body": [
+      "vielen Dank für die stets gute Zusammenarbeit.",
+      "Hätten Sie nächste Woche Zeit für eine Besprechung zum neuen Produkt? Bitte teilen Sie uns mit, welche Uhrzeit Ihnen am Dienstag- oder Donnerstagnachmittag passt.",
+      "Ich weiß, dass Sie viel zu tun haben, und danke Ihnen herzlich für Ihre Mühe.",
+      "Tanaka"
+    ],
+    "note": "Japanische Geschäfts-E-Mails beginnen und enden mit festen Höflichkeitsformeln wie お世話になっております und よろしくお願いいたします. Die Übersetzung von Apple macht daraus natürliche Grußformeln statt einer Wort-für-Wort-Übertragung, sodass das eigentliche Anliegen hervortritt."
+  },
+  "zh": {
+    "subject": "Antwort auf Ihre Preisanfrage",
+    "body": [
+      "Guten Tag,",
+      "vielen Dank für Ihre Anfrage. Der Stückpreis bei 5.000 Stück beträgt 2,35 US$ inklusive Verpackung, die Lieferzeit 25 Tage nach Auftragsbestätigung.",
+      "Falls Sie Muster benötigen, können wir diese innerhalb von drei Werktagen versenden. Wir freuen uns auf die Zusammenarbeit mit Ihnen.",
+      "Mit freundlichen Grüßen\nManager Li"
+    ],
+    "note": "Mailkin übersetzt chinesische E-Mails in vereinfachten oder traditionellen Schriftzeichen, wie sie von Lieferanten, Fabriken und Partnern in Festlandchina, Taiwan und Hongkong kommen. Preise, Mengen und Daten bleiben unverändert."
+  },
+  "pt": {
+    "subject": "Feedback zur ersten Version der Website",
+    "body": [
+      "Hallo, wie geht’s?",
+      "Wir haben uns die erste Version der Website angesehen und das Layout gefällt uns sehr. Wir möchten nur darum bitten, die Fotos auf der Startseite auszutauschen und das Kontaktformular kürzer zu machen.",
+      "Können wir die neue Version bis Freitag bekommen?",
+      "Liebe Grüße\nMariana"
+    ],
+    "note": "Portugiesische E-Mails aus Brasilien und aus Portugal unterscheiden sich in Ton und Wortschatz. Brasilianische E-Mails sind oft locker und beginnen mit „Olá, tudo bem?“, während E-Mails aus Portugal eher förmlich sind. Mailkin übersetzt beide."
+  },
+  "ru": {
+    "subject": "Bestätigung Ihrer Teilnahme an der Konferenz",
+    "body": [
+      "Guten Tag,",
+      "vielen Dank für Ihre Anmeldung zur Konferenz „TechnoForum“, die am 22. und 23. April stattfindet. Ihr Vortrag wurde in das Programm des zweiten Tages aufgenommen.",
+      "Bitte bestätigen Sie Ihre Teilnahme bis zum 1. April, indem Sie auf diese E-Mail antworten.",
+      "Mit freundlichen Grüßen\nIhr Organisationskomitee"
+    ],
+    "note": "Mailkin liest russische E-Mails in kyrillischer Schrift und erkennt sie automatisch, auch wenn die Betreffzeile auf Englisch ist. Förmliche Schlussformeln wie „С уважением“ (hochachtungsvoll) werden zum üblichen Gruß auf Deutsch."
+  },
+  "en": {
+    "subject": "Elternsprechtag nächste Woche",
+    "body": [
+      "Liebe Eltern,",
+      "die Elterngespräche finden am kommenden Dienstag und Mittwoch von 16 bis 19 Uhr statt. Bitte buchen Sie bis Freitag über den Link unten einen 15-minütigen Termin bei der Klassenlehrkraft Ihres Kindes.",
+      "Falls keiner der Termine für Sie passt, geben Sie uns Bescheid, dann vereinbaren wir ein Videogespräch.",
+      "Viele Grüße\nIhr Schulsekretariat"
+    ],
+    "note": "Englische E-Mails erreichen viele Leserinnen und Leser von internationalen Unternehmen, Softwareanbietern, Hochschulen oder internationalen Schulen. Mailkin übersetzt sie beim Öffnen ins Deutsche, und mit „Original zeigen“ lesen Sie bei Bedarf den englischen Text."
+  }
+}
