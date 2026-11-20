@@ -34,7 +34,7 @@ function fill(str, d) {
 
   <h2>{{ t.langPage.exampleTitle | fmt(v) }}</h2>
   <div class="mails">
-    <div class="mail" lang="{{ locale.source.code }}">
+    <div class="mail" lang="{{ locale.source.code }}"{% if locale.source.code in ["ar", "he"] %} dir="rtl"{% endif %}>
       <p class="label">{{ t.langPage.originalLabel | fmt(v) }}</p>
       <p class="from">{{ sample.from }}</p>
       <p class="subject">{{ sample.original.subject }}</p>

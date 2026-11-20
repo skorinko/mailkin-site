@@ -37,6 +37,11 @@ Key facts:
 - [{{ g.data.h1 or g.data.title }}]({{ g.url | absolute }}): {{ g.data.description }}
 {%- endif %}{% endfor %}
 
+## Use cases
+{%- for g in collections.usecase %}{% if g.data.short %}
+- [{{ g.data.h1 or g.data.title }}]({{ g.url | absolute }}): {{ g.data.description }}
+{%- endif %}{% endfor %}
+
 ## Translating email by language
 {%- for f in site.featured %}{% if f.code != "en" %}
 - [Translate {{ f.code | langName("en") }} emails in Apple Mail]({{ site.url }}/translate/{{ f.slug }}-email/)

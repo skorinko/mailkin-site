@@ -78,5 +78,165 @@
       "Um abraço,\nSecretaria da escola"
     ],
     "note": "No Brasil, muita gente recebe e-mails em inglês de empresas internacionais, escolas, serviços online e softwares. O Mailkin os mostra em português ao abrir, e Mostrar original traz de volta o texto em inglês quando você precisar dele."
+  },
+  "ko": {
+    "subject": "Seu pedido foi enviado",
+    "body": [
+      "Olá, cliente.",
+      "O produto que você comprou (pedido nº 20481) foi enviado hoje. Entregas internacionais costumam levar de 7 a 10 dias e podem atrasar na alfândega.",
+      "Você pode acompanhar a entrega pelo código de rastreamento abaixo. Se tiver qualquer dúvida, é só responder a este e-mail.",
+      "Obrigado.\nHaneul Store"
+    ],
+    "note": "E-mails em coreano usam terminações educadas como 습니다 e 주세요 e muitas vezes terminam com 드림 (“de”). O Mailkin as transforma nas fórmulas educadas de costume em português, para que atualizações de pedidos e e-mails comerciais da Coreia soem naturais."
+  },
+  "ar": {
+    "subject": "Horário de visita ao apartamento",
+    "body": [
+      "Olá,",
+      "Gostaríamos de confirmar a visita ao apartamento no próximo domingo, às 16h. Nosso representante vai esperar por você na entrada do prédio.",
+      "Por favor, traga uma cópia do seu documento de identidade caso queira assinar o contrato de reserva no mesmo dia.",
+      "Atenciosamente,\nDepartamento de vendas"
+    ],
+    "note": "O árabe é escrito da direita para a esquerda. O Mailkin traduz o texto enquanto o Mail mantém o layout do e-mail, então o resultado fica da esquerda para a direita em português. Saudações como “السلام عليكم” viram um simples olá."
+  },
+  "nl": {
+    "subject": "Confirmação do seu agendamento",
+    "body": [
+      "Prezado(a) senhor(a),",
+      "Confirmamos o seu agendamento para solicitar o passaporte na terça-feira, 9 de dezembro, às 10h30, na prefeitura.",
+      "Traga o seu passaporte atual e uma foto recente para passaporte. Não vai poder comparecer? Altere ou cancele o agendamento pelo link neste e-mail.",
+      "Atenciosamente,\nEquipe de Atendimento ao Cidadão"
+    ],
+    "note": "E-mails em holandês de prefeituras, proprietários de imóveis e escolas costumam ser formais (“Geachte heer/mevrouw”), mas diretos. O Mailkin traduz a mensagem inteira, inclusive horários escritos como 10.30 uur e datas no formato holandês."
+  },
+  "pl": {
+    "subject": "Orçamento da reforma do banheiro",
+    "body": [
+      "Olá,",
+      "segue em anexo o orçamento da reforma do banheiro. A mão de obra fica em 9.800 zł, e os materiais serão cobrados à parte, conforme as notas fiscais.",
+      "Podemos começar a obra no dia 12 de janeiro. Por favor, confirme a data até o fim da semana.",
+      "Um abraço,\nTomasz Nowak"
+    ],
+    "note": "E-mails em polonês costumam começar com “Dzień dobry” e usar o tratamento formal Pan/Pani. Valores em złoty e datas chegam com clareza, o que ajuda com orçamentos, notas fiscais e mensagens de prestadores de serviço."
+  },
+  "tr": {
+    "subject": "Sobre o envio do seu pedido",
+    "body": [
+      "Olá,",
+      "O seu pedido de 1.200 camisetas de algodão está pronto e sai do porto de İzmir nesta sexta-feira.",
+      "Vamos enviar o conhecimento de embarque e os dados da fatura separadamente, depois do embarque. Se houver qualquer alteração, por favor nos avise.",
+      "Atenciosamente,\nDepartamento de Comércio Exterior"
+    ],
+    "note": "E-mails comerciais em turco de fornecedores e parceiros de logística usam fórmulas fixas como “Saygılarımızla” (respeitosamente). O Mailkin preserva quantidades, portos e datas, que é o que mais importa em e-mails de comércio exterior."
+  },
+  "uk": {
+    "subject": "Reunião de pais na quinta-feira",
+    "body": [
+      "Boa tarde, prezados pais!",
+      "Convidamos vocês para a reunião de pais na quinta-feira, às 18h, na sala 214. Vamos falar sobre a excursão da escola e o calendário de férias.",
+      "Se não puderem comparecer, por favor avisem com antecedência o professor responsável pela turma.",
+      "Atenciosamente,\nComissão de pais"
+    ],
+    "note": "O Mailkin distingue o ucraniano do russo, embora os dois usem o alfabeto cirílico, para que cada um seja traduzido com o modelo de idioma certo. Fechamentos formais como “З повагою” viram a despedida habitual em português."
+  },
+  "sv": {
+    "subject": "Informações sobre o dia de planejamento",
+    "body": [
+      "Olá, pais e responsáveis!",
+      "Na sexta-feira, 16 de janeiro, a creche estará fechada por causa do dia de planejamento. Se precisarem que alguém fique com as crianças nesse dia, nos avisem até 9 de janeiro.",
+      "Lembrem-se também de marcar o nome das crianças nas roupas de inverno.",
+      "Um abraço,\nEquipe da Solrosen"
+    ],
+    "note": "E-mails em sueco costumam ser informais e começam com “Hej” até quando vêm de escolas e empregadores. Palavras como vårdnadshavare (pai, mãe ou responsável legal) são traduzidas pelo termo do dia a dia em português."
+  },
+  "da": {
+    "subject": "Convocação para a assembleia de moradores",
+    "body": [
+      "Prezados moradores,",
+      "Convocamos todos para a assembleia ordinária de moradores na quarta-feira, 21 de janeiro, às 19h, no salão comunitário.",
+      "Na pauta estão, entre outros assuntos, o orçamento do próximo ano e a reforma do parquinho. As propostas devem ser entregues à diretoria até uma semana antes da reunião.",
+      "Atenciosamente,\nDiretoria da associação de moradores"
+    ],
+    "note": "E-mails em dinamarquês de associações de moradores, escolas e empregadores misturam avisos formais com um tom amigável. O Mailkin os traduz por completo, inclusive horários escritos como kl. 19.00."
+  },
+  "no": {
+    "subject": "Lembrete de consulta",
+    "body": [
+      "Olá!",
+      "Este é um lembrete de que você tem consulta no dentista na terça-feira, 13 de janeiro, às 8h15.",
+      "Se não puder comparecer, a consulta deve ser desmarcada com pelo menos 24 horas de antecedência. Caso contrário, ela será cobrada.",
+      "Atenciosamente,\nTannlegesenteret Sentrum"
+    ],
+    "note": "O Mailkin traduz norueguês escrito em bokmål, a forma usada na maioria dos e-mails de empresas, escolas e serviços públicos. O informal “Hei” e o “Vennlig hilsen” viram a saudação e a despedida habituais em português."
+  },
+  "fi": {
+    "subject": "Falta de água na terça-feira",
+    "body": [
+      "Prezado morador,",
+      "Na terça-feira, 20 de janeiro, vai faltar água no prédio das 9h às 14h, por causa da reforma do encanamento. Se precisar, separe um pouco de água com antecedência.",
+      "Os horários reservados na sauna ficam cancelados nesse dia. Pedimos desculpas pelo transtorno.",
+      "Atenciosamente,\nAdministração do condomínio"
+    ],
+    "note": "O finlandês tem fama de ser difícil para estrangeiros, com palavras longas e flexionadas e datas como 20.1. O Mailkin traduz avisos de condomínios, escolas e empregadores para um português simples, para que você saiba logo o que fazer."
+  },
+  "he": {
+    "subject": "Renovação do contrato de aluguel",
+    "body": [
+      "Olá,",
+      "O contrato de aluguel do apartamento termina no fim de fevereiro. O proprietário quer renovar o contrato por mais um ano, nas mesmas condições.",
+      "Gostaríamos de receber a sua resposta até 15 de janeiro, para podermos preparar os documentos.",
+      "Atenciosamente,\nImobiliária Carmel"
+    ],
+    "note": "O hebraico é escrito da direita para a esquerda e geralmente sem sinais de vogais. O Mailkin traduz o texto para o português enquanto o Mail mantém o layout do e-mail, então contratos e agendamentos ficam fáceis de acompanhar."
+  },
+  "hi": {
+    "subject": "Informações sobre a sua viagem a Jaipur",
+    "body": [
+      "Olá,",
+      "A reserva da sua viagem a Jaipur está confirmada. O seu motorista vai buscar você no hotel no dia 5 de fevereiro, às 9h.",
+      "Por favor, leve o seu documento de identidade e nos avise com um dia de antecedência se houver qualquer alteração.",
+      "Obrigado,\nYatra Mitra Tours"
+    ],
+    "note": "O Mailkin traduz hindi escrito no alfabeto devanágari. E-mails que misturam hindi e inglês, comuns na Índia, são detectados pelo idioma principal."
+  },
+  "id": {
+    "subject": "Confirmação da reserva da villa",
+    "body": [
+      "Olá, senhor(a),",
+      "Obrigado pela sua reserva. A villa de dois quartos já está pronta para você, de 3 a 8 de março.",
+      "Também podemos providenciar o transfer do aeroporto, com custo adicional. É só responder a este e-mail se precisar.",
+      "Abraços,\nEquipe Villa Sawah Indah"
+    ],
+    "note": "E-mails em indonésio de hotéis, fornecedores e parceiros costumam usar o tratamento educado Bapak/Ibu (senhor/senhora). O Mailkin os traduz de forma natural e mantém datas e preços como estão escritos."
+  },
+  "ms": {
+    "subject": "Documentos da sua inscrição",
+    "body": [
+      "Saudações,",
+      "Recebemos a sua inscrição para o curso de bacharelado. No entanto, as cópias dos seus certificados acadêmicos estão incompletas.",
+      "Por favor, envie esses documentos antes de 30 de janeiro para que a sua inscrição possa ser analisada.",
+      "Sem mais, agradecemos.\nSecretaria de Admissões"
+    ],
+    "note": "O Mailkin traduz malaio como é usado na Malásia, em Brunei e em Singapura. Expressões formais como “Salam sejahtera” e “Sekian, terima kasih” viram a saudação e o fechamento habituais em português."
+  },
+  "th": {
+    "subject": "Confirmação da reserva",
+    "body": [
+      "Prezado(a) hóspede,",
+      "O resort confirma a sua reserva de um quarto com vista para o mar de 10 a 14 de fevereiro. O check-in é a partir das 14h.",
+      "Se você precisar de transfer do aeroporto, por favor informe o horário do seu voo com pelo menos um dia de antecedência.",
+      "Atenciosamente,\nRecepção"
+    ],
+    "note": "O tailandês é escrito sem espaços entre as palavras, o que bagunça a tradução feita copiando e colando. O Mailkin traduz o e-mail inteiro ali mesmo, inclusive horários escritos como 14.00 น."
+  },
+  "vi": {
+    "subject": "Envio de amostras dos produtos",
+    "body": [
+      "Prezado cliente,",
+      "Enviamos hoje de manhã três amostras de cadeiras de madeira por entrega expressa. A previsão é que cheguem em cerca de 5 dias úteis.",
+      "Depois de examinar as amostras, por favor nos dê o seu retorno para prepararmos o pedido oficial.",
+      "Atenciosamente,\nDepartamento comercial"
+    ],
+    "note": "E-mails em vietnamita de fábricas e fornecedores usam tratamentos formais como “Kính gửi Quý khách” (prezado cliente). O Mailkin mantém o tom educado e deixa claros os detalhes, como quantidades e prazos de entrega."
   }
 }

@@ -11,7 +11,7 @@
     description: (d) => (d.i18n[d.locale.code] || d.i18n.en).hub.description,
     faqItems: (d) => (d.i18n[d.locale.code] || d.i18n.en).hub.faq,
     crumbs: (d) => [{ name: (d.i18n[d.locale.code] || d.i18n.en).nav.translate }],
-    featuredHere: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang),
+    featuredHere: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang).slice(0, 8),
   },
 }
 ---

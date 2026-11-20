@@ -9,7 +9,7 @@
     title: (d) => (d.i18n[d.locale.code] || d.i18n.en).home.title,
     description: (d) => (d.i18n[d.locale.code] || d.i18n.en).home.description,
     faqItems: (d) => (d.i18n[d.locale.code] || d.i18n.en).faq.items.slice(0, 4),
-    featuredHere: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang),
+    featuredHere: (d) => d.site.featured.filter((f) => f.code !== d.locale.lang).slice(0, 8),
   },
 }
 ---

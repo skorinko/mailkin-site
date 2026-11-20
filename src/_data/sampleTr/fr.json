@@ -78,5 +78,165 @@
       "Bien cordialement,\nLe secrétariat de l’école"
     ],
     "note": "Beaucoup d’e-mails en anglais arrivent d’entreprises internationales, d’éditeurs de logiciels, d’universités ou d’écoles internationales. Mailkin les affiche en français dès leur ouverture, et Afficher l’original permet de relire le texte anglais si besoin."
+  },
+  "ko": {
+    "subject": "Votre commande a été expédiée",
+    "body": [
+      "Bonjour,",
+      "Votre commande (n° 20481) a été expédiée aujourd’hui. La livraison internationale prend généralement 7 à 10 jours et peut être retardée lors du passage en douane.",
+      "Vous pouvez suivre la livraison grâce au numéro de suivi ci-dessous. Pour toute question, il vous suffit de répondre à cet e-mail.",
+      "Merci,\nL’équipe Haneul Store"
+    ],
+    "note": "Les e-mails coréens emploient des terminaisons polies comme 습니다 et 주세요, et se terminent souvent par 드림 (« de la part de »). Mailkin les transforme en formules de politesse naturelles en français : les suivis de commande et e-mails professionnels venus de Corée se lisent sans effort."
+  },
+  "ar": {
+    "subject": "Rendez-vous pour la visite de l’appartement",
+    "body": [
+      "Bonjour,",
+      "Nous vous confirmons la visite de l’appartement dimanche prochain à 16 h. Notre représentant vous attendra à l’entrée de l’immeuble.",
+      "Merci d’apporter une copie de votre pièce d’identité si vous souhaitez signer le contrat de réservation le jour même.",
+      "Bien cordialement,\nLe service commercial"
+    ],
+    "note": "L’arabe s’écrit de droite à gauche. Mailkin traduit le texte tandis que Mail conserve la mise en page de l’e-mail, et le résultat se lit de gauche à droite en français. Les salutations comme « السلام عليكم » deviennent un simple bonjour."
+  },
+  "nl": {
+    "subject": "Confirmation de votre rendez-vous",
+    "body": [
+      "Madame, Monsieur,",
+      "Nous vous confirmons votre rendez-vous pour une demande de passeport le mardi 9 décembre à 10 h 30 à la mairie.",
+      "Munissez-vous de votre passeport actuel et d’une photo d’identité récente. Vous ne pouvez pas venir ? Modifiez ou annulez votre rendez-vous via le lien de cet e-mail.",
+      "Cordialement,\nL’équipe État civil"
+    ],
+    "note": "Les e-mails néerlandais des communes, propriétaires et écoles sont souvent formels (« Geachte heer/mevrouw ») mais directs. Mailkin traduit le message entier, y compris les heures écrites 10.30 uur et les formats de date néerlandais."
+  },
+  "pl": {
+    "subject": "Devis pour la rénovation de la salle de bains",
+    "body": [
+      "Bonjour,",
+      "Veuillez trouver ci-joint le devis pour la rénovation de la salle de bains. La main-d’œuvre s’élève à 9 800 zł, les matériaux seront facturés à part sur présentation des factures.",
+      "Nous pouvons commencer les travaux à partir du 12 janvier. Merci de me confirmer la date d’ici la fin de la semaine.",
+      "Bien cordialement,\nTomasz Nowak"
+    ],
+    "note": "Les e-mails polonais commencent souvent par « Dzień dobry » et emploient le vouvoiement Pan/Pani. Les montants en złotys et les dates restent clairs, ce qui aide pour les devis, les factures et les messages d’artisans."
+  },
+  "tr": {
+    "subject": "Expédition de votre commande",
+    "body": [
+      "Bonjour,",
+      "Votre commande de 1 200 t-shirts en coton est prête et quittera le port d’İzmir ce vendredi.",
+      "Nous vous enverrons séparément le connaissement et les informations de facturation après l’expédition. N’hésitez pas à nous prévenir en cas de changement.",
+      "Cordialement,\nLe service commerce international"
+    ],
+    "note": "Les e-mails professionnels turcs des fournisseurs et partenaires logistiques utilisent des formules toutes faites comme « Saygılarımızla » (respectueusement). Mailkin conserve les quantités, les ports et les dates, ce qui compte le plus dans les e-mails commerciaux."
+  },
+  "uk": {
+    "subject": "Réunion de parents jeudi",
+    "body": [
+      "Bonjour chers parents,",
+      "Nous vous invitons à la réunion de parents jeudi à 18 h, salle 214. Nous parlerons de la sortie scolaire et du calendrier des vacances.",
+      "Si vous ne pouvez pas venir, merci de prévenir le professeur principal à l’avance.",
+      "Cordialement,\nLe comité des parents"
+    ],
+    "note": "Mailkin distingue l’ukrainien du russe, bien que les deux s’écrivent en cyrillique : chacun est traduit avec le bon modèle de langue. Les formules de clôture comme « З повагою » deviennent la formule habituelle en français."
+  },
+  "sv": {
+    "subject": "Informations sur la journée pédagogique",
+    "body": [
+      "Bonjour à tous les parents !",
+      "Le vendredi 16 janvier, l’école maternelle sera fermée pour cause de journée pédagogique. Si vous avez besoin d’une garde ce jour-là, prévenez-nous au plus tard le 9 janvier.",
+      "Pensez aussi à marquer les vêtements d’hiver de vos enfants à leur nom.",
+      "Bien à vous,\nL’équipe de Solrosen"
+    ],
+    "note": "Les e-mails suédois sont généralement informels et commencent par « Hej », même de la part d’écoles ou d’employeurs. Des mots comme vårdnadshavare (parent ou tuteur) sont traduits par le terme courant en français."
+  },
+  "da": {
+    "subject": "Convocation à l’assemblée des résidents",
+    "body": [
+      "Chers résidents,",
+      "Vous êtes conviés à l’assemblée ordinaire des résidents le mercredi 21 janvier à 19 h, à la maison commune.",
+      "L’ordre du jour comprend notamment le budget de l’année prochaine et la rénovation de l’aire de jeux. Les propositions doivent parvenir au conseil au plus tard une semaine avant la réunion.",
+      "Cordialement,\nLe conseil des résidents"
+    ],
+    "note": "Les e-mails danois des associations de logement, écoles et employeurs mêlent avis formels et ton amical. Mailkin les traduit en entier, y compris les heures écrites kl. 19.00."
+  },
+  "no": {
+    "subject": "Rappel de rendez-vous",
+    "body": [
+      "Bonjour,",
+      "Nous vous rappelons votre rendez-vous chez le dentiste le mardi 13 janvier à 8 h 15.",
+      "Si vous ne pouvez pas venir, le rendez-vous doit être annulé au moins 24 heures à l’avance. À défaut, il vous sera facturé.",
+      "Cordialement,\nTannlegesenteret Sentrum"
+    ],
+    "note": "Mailkin traduit le norvégien écrit en bokmål, la forme utilisée dans la plupart des e-mails des entreprises, écoles et services publics. Le « Hei » et le « Vennlig hilsen » informels deviennent les salutations habituelles en français."
+  },
+  "fi": {
+    "subject": "Coupure d’eau mardi",
+    "body": [
+      "Chère résidente, cher résident,",
+      "En raison de travaux de canalisations, l’eau sera coupée dans l’immeuble le mardi 20 janvier de 9 h à 14 h. Pensez à faire une réserve d’eau à l’avance si nécessaire.",
+      "Les créneaux de sauna sont annulés ce jour-là. Nous vous prions de nous excuser pour la gêne occasionnée.",
+      "Cordialement,\nLe syndic"
+    ],
+    "note": "Le finnois a la réputation d’être difficile, avec ses longs mots déclinés et ses dates comme 20.1. Mailkin traduit les avis des copropriétés, écoles et employeurs dans un français simple, pour que vous sachiez quoi faire."
+  },
+  "he": {
+    "subject": "Renouvellement du bail",
+    "body": [
+      "Bonjour,",
+      "Le bail de l’appartement prend fin à la fin février. Le propriétaire souhaite le renouveler pour un an aux mêmes conditions.",
+      "Merci de nous faire part de votre réponse d’ici le 15 janvier afin que nous puissions préparer les documents.",
+      "Bien cordialement,\nAgence immobilière HaCarmel"
+    ],
+    "note": "L’hébreu s’écrit de droite à gauche, en général sans voyelles. Mailkin traduit le texte en français tandis que Mail conserve la mise en page de l’e-mail : contrats et rendez-vous restent faciles à suivre."
+  },
+  "hi": {
+    "subject": "Informations sur votre voyage à Jaipur",
+    "body": [
+      "Bonjour,",
+      "Votre réservation pour le voyage à Jaipur est confirmée. Votre chauffeur viendra vous chercher à l’hôtel le 5 février à 9 h.",
+      "Merci de garder votre pièce d’identité sur vous et de nous prévenir un jour à l’avance en cas de changement.",
+      "Merci,\nYatra Mitra Tours"
+    ],
+    "note": "Mailkin traduit l’hindi écrit en devanagari. Les e-mails qui mélangent hindi et anglais, fréquents en Inde, sont détectés d’après leur langue principale."
+  },
+  "id": {
+    "subject": "Confirmation de réservation de la villa",
+    "body": [
+      "Bonjour,",
+      "Merci pour votre réservation. La villa de deux chambres vous attend du 3 au 8 mars.",
+      "Nous pouvons aussi organiser votre transfert depuis l’aéroport, moyennant un supplément. Il vous suffit de répondre à cet e-mail si vous le souhaitez.",
+      "Chaleureusement,\nL’équipe de la Villa Sawah Indah"
+    ],
+    "note": "Les e-mails indonésiens des hôtels, fournisseurs et partenaires emploient souvent la formule de politesse Bapak/Ibu (Monsieur/Madame). Mailkin les traduit naturellement et conserve dates et prix tels quels."
+  },
+  "ms": {
+    "subject": "Votre dossier de candidature",
+    "body": [
+      "Bonjour,",
+      "Nous avons bien reçu votre candidature au programme de licence. Toutefois, les copies de vos diplômes sont incomplètes.",
+      "Merci de nous envoyer ces documents avant le 30 janvier afin que votre candidature puisse être traitée.",
+      "Merci,\nLe service des admissions"
+    ],
+    "note": "Mailkin traduit le malais tel qu’il est utilisé en Malaisie, à Brunei et à Singapour. Les formules comme « Salam sejahtera » et « Sekian, terima kasih » deviennent les salutations et formules de clôture habituelles en français."
+  },
+  "th": {
+    "subject": "Confirmation de votre réservation",
+    "body": [
+      "Chère cliente, cher client,",
+      "Le resort vous confirme la réservation de votre chambre vue mer du 10 au 14 février. L’arrivée est possible à partir de 14 h.",
+      "Si vous avez besoin d’un transfert depuis l’aéroport, merci de nous indiquer l’heure de votre vol au moins un jour à l’avance.",
+      "Avec nos salutations distinguées,\nLa réception"
+    ],
+    "note": "Le thaï s’écrit sans espaces entre les mots, ce qui complique la traduction par copier-coller. Mailkin traduit l’e-mail entier sur place, y compris les heures écrites 14.00 น."
+  },
+  "vi": {
+    "subject": "Envoi des échantillons",
+    "body": [
+      "Chère cliente, cher client,",
+      "Nous vous avons envoyé ce matin trois échantillons de chaises en bois par courrier express. Ils devraient arriver d’ici 5 jours ouvrés environ.",
+      "Une fois les échantillons examinés, merci de nous faire part de vos remarques afin que nous préparions la commande définitive.",
+      "Cordialement,\nLe service commercial"
+    ],
+    "note": "Les e-mails vietnamiens des usines et fournisseurs emploient des formules respectueuses comme « Kính gửi Quý khách » (Cher client estimé). Mailkin garde le ton poli et la clarté des détails, comme les quantités et les délais de livraison."
   }
 }
